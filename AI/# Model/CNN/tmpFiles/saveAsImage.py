@@ -1,5 +1,4 @@
 import os
-import shutil
 import librosa
 import numpy as np
 import settings as set
@@ -44,7 +43,3 @@ def saveAsImage(target) :
             wavImg = func.spec_to_image(wavSpec)
             display.specshow(wavImg)
             plt.savefig(saveFilePath, bbox_inches="tight", pad_inches = 0)
-    
-    # print(f"{soundPath}폴더 삭제 중")
-    # shutil.rmtree(soundPath)
-    # print(f"{soundPath}폴더 삭제 완료")

@@ -136,7 +136,22 @@ def learnModel(target) :
 
 # 일정 에포크 수마다 모델을 저장하고, 진행 경과를 텍스트파일을 만들어서 저장
 def saveModel(model, epoch, test_loss, accuracy) :
-    savePath = savePath = os.path.dirname(os.path.realpath(__file__))
+    savePath = os.path.dirname(os.path.realpath(__file__))
+    savePath = os.path.join(savePath, "folder_models")
+    savePath = os.path.join(str(set.model_label))
+    
+    # 한 Label로 여러 모델을 생성했을 경우, 이전 모델이 사라지는 것을 방지하기 위한 뒤에 번호붙이기
+    tmpValue = 0
+    while True :
+        if not (os.path.isdir(savePath)) :
+            os.mkdir(savePath)
+            break
+        
+        else :
+            savePath = savePath + "_" + str(tmpValue)
+            tmpValue += 1
+    
+
     if (epoch + 1) % 10 == 0 :
         torch.save(model, os.path.join(savePath, "model_" + str(epoch + 1) + " Epochs" + str(set.model_label) + ".pt"))
         torch.save(model.state_dict(), os.path.join(savePath, "state_dict_" + str(epoch + 1) + " Epochs" + str(set.model_label) + ".pt"))

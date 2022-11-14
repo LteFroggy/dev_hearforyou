@@ -75,7 +75,3 @@ def labeling(target, labels) :
         # 테스팅용 라벨 저장
         with open(testingLabelPath, "wb") as file :
             pickle.dump(label_test, file)
-
-    # print(f"{dataPath}폴더 삭제 중")
-    # shutil.rmtree(dataPath)
-    # print(f"{dataPath}폴더 삭제 완료")

@@ -1,4 +1,5 @@
 import os
+import shutil
 import librosa
 import soundfile
 import numpy as np
@@ -86,3 +87,9 @@ def spec_to_image(spec, eps=1e-6):
     spec_scaled = 255 * (spec_norm - spec_min) / (spec_max - spec_min)
     spec_scaled = spec_scaled.astype(np.uint8)
     return spec_scaled
+
+
+def removeUsedFolder(soundPath) :
+    print(f"{soundPath}폴더 삭제 중")
+    shutil.rmtree(soundPath)
+    print(f"{soundPath}폴더 삭제 완료")

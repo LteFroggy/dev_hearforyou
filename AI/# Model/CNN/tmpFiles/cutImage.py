@@ -1,12 +1,9 @@
 import os
 import torch
-import shutil
-import numpy as np
 import settings as set
 import PIL.Image as ImgLoader
 import torchvision.transforms as transforms
 from tqdm import tqdm
-from pathlib import Path
 
 cutColumn = 4
 cutRow = 5
@@ -59,7 +56,3 @@ def cutImage(target) :
             # print(f"길이 3 : {len(cuttedImg[0][0])}")
             imgFile = transforms.ToPILImage()(cuttedImg)
             imgFile.save(saveFilePath)
-
-    # print(f"{soundPath}폴더 삭제 중")
-    # shutil.rmtree(soundPath)
-    # print(f"{soundPath}폴더 삭제 완료")
