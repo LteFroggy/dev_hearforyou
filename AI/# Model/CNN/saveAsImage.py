@@ -45,6 +45,6 @@ def saveAsImage(target) :
             display.specshow(wavImg)
             plt.savefig(saveFilePath, bbox_inches="tight", pad_inches = 0)
     
-    print(f"{soundPath}폴더 삭제 중")
-    shutil.rmtree(soundPath)
-    print(f"{soundPath}폴더 삭제 완료")
+    # print(f"{soundPath}폴더 삭제 중")
+    # shutil.rmtree(soundPath)
+    # print(f"{soundPath}폴더 삭제 완료")

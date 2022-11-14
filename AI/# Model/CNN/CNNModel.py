@@ -38,13 +38,11 @@ class ImageDataSet(Dataset) :
 class CNN(torch.nn.Module) :
     def __init__(self) :
         super(CNN, self).__init__()
-        self.Conv2d_1 = torch.nn.Conv2d(4, 8, 3)
-        self.Conv2d_2 = torch.nn.Conv2d(8, 8, 3)
-        self.Conv2d_3 = torch.nn.Conv2d(8, 8, 3)
-        self.Conv2d_4 = torch.nn.Conv2d(8, 8, 3)
-        self.MaxPool = torch.nn.MaxPool2d(3, 3)
+        self.Conv2d_1 = torch.nn.Conv2d(4, 8, 3, 3)
+        self.Conv2d_2 = torch.nn.Conv2d(8, 8, 3, 3)
+        self.MaxPool = torch.nn.MaxPool2d(2, 2)
         self.flatten = torch.nn.Flatten()
-        self.Linear_1 = torch.nn.Linear(17280, 512)
+        self.Linear_1 = torch.nn.Linear(1040, 512)
         self.Linear_2 = torch.nn.Linear(512, 4)
         self.dropout = torch.nn.Dropout(0.5)
 
@@ -52,10 +50,6 @@ class CNN(torch.nn.Module) :
         input = F.relu(self.Conv2d_1(input))
         input = self.MaxPool(input)
         input = F.relu(self.Conv2d_2(input))
-        input = self.MaxPool(input)
-        input = F.relu(self.Conv2d_3(input))
-        input = self.MaxPool(input)
-        input = F.relu(self.Conv2d_4(input))
         input = self.MaxPool(input)
         input = self.flatten(self.dropout(input))
         print(f"after Flattening : {input.shape}")

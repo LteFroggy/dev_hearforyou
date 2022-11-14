@@ -60,6 +60,6 @@ def cutImage(target) :
             imgFile = transforms.ToPILImage()(cuttedImg)
             imgFile.save(saveFilePath)
 
-    print(f"{soundPath}폴더 삭제 중")
-    shutil.rmtree(soundPath)
-    print(f"{soundPath}폴더 삭제 완료")
+    # print(f"{soundPath}폴더 삭제 중")
+    # shutil.rmtree(soundPath)
+    # print(f"{soundPath}폴더 삭제 완료")

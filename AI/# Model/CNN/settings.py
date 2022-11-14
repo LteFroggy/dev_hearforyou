@@ -30,15 +30,12 @@ UrbanSounds_labels = {
 }
 
 test_Labels = {
-    0 : "TestFold"
+    0 : "개 짖는 소리",
+    1 : "사이렌",
+    2 : "차량 경적"
 }
 
-TS_Labels = {
-    0 : "14.개",
-    1 : "2.차량사이렌",
-    2 : "3.차량경적"
-}
+model_label = "_CNN_221114"
 
-model_label = "_CNN_221111"
-
-dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
+dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent.parent, "data")
+dataPath

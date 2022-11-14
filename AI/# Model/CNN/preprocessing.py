@@ -98,7 +98,7 @@ def lengthRegulate(target) :
             for num in range(len(wav_result)) :
                 func.saveFile(saveFilePath + "_" + str(num) + ".wav", wav_result[num])
 
-    print("길이 균일화 완료")
-    print(f"{sourcePath}폴더 삭제 중")
-    shutil.rmtree(sourcePath)
-    print(f"{sourcePath}폴더 삭제 완료")
+    # print("길이 균일화 완료")
+    # print(f"{sourcePath}폴더 삭제 중")
+    # shutil.rmtree(sourcePath)
+    # print(f"{sourcePath}폴더 삭제 완료")

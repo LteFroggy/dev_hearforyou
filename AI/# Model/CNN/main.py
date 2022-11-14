@@ -6,8 +6,8 @@ import saveAsImage as save
 import preprocessing as pre
 
 if __name__ == "__main__" :
-    targetName = "Urban"
-    labelName = set.UrbanSounds_labels
+    targetName = "TestData"
+    labelName = set.test_Labels
     
     # # 1
     # pre.removeSilence(targetName)
@@ -21,8 +21,8 @@ if __name__ == "__main__" :
     # # 4
     # cut.cutImage(targetName)
 
-    # # 5
-    # lab.labeling(targetName, labelName)
+    # 5
+    lab.labeling(targetName, labelName)
 
     # 6
     model.learnModel(targetName)

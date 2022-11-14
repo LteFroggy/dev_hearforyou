@@ -1,6 +1,7 @@
 import os
 import pickle
 import shutil
+import unicodedata
 import settings as set
 from tqdm import tqdm
 
@@ -36,9 +37,13 @@ def labeling(target, labels) :
             continue
 
         folderLabel = -1
-        for value in labels.keys() :
-            if folderName == labels[value] :
-                folderLabel = value
+        for key in labels.keys() :
+            # 값을 정규화해주지 않으면 길이가 달라 같은 문자열로 인식하지 못하는 오류 발생 -> 수정
+            forderName_normalized = unicodedata.normalize("NFC", folderName)
+            value_normalized = unicodedata.normalize("NFC", labels[key])
+
+            if forderName_normalized == value_normalized :
+                folderLabel = key
                 print(f"{folderName}의 Label은 {folderLabel}입니다")
             
         if (folderLabel == -1) :
@@ -71,6 +76,6 @@ def labeling(target, labels) :
         with open(testingLabelPath, "wb") as file :
             pickle.dump(label_test, file)
 
-    print(f"{dataPath}폴더 삭제 중")
-    shutil.rmtree(dataPath)
-    print(f"{dataPath}폴더 삭제 완료")
+    # print(f"{dataPath}폴더 삭제 중")
+    # shutil.rmtree(dataPath)
+    # print(f"{dataPath}폴더 삭제 완료")
