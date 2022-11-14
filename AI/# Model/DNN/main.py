@@ -5,16 +5,16 @@ if __name__ == "__main__" :
     pathName = "Urban"
     label = settings.UrbanSounds_labels
     # 1.
-    Processes.removeSilence(pathName)
+    #Processes.removeSilence(pathName)
 
     # 2.
-    Processes.lengthRegulate(pathName)
+   # Processes.lengthRegulate(pathName)
 
     # 3.
-    Processes.getMFCC(pathName)
+    #Processes.getMFCC(pathName)
 
     # 4.
-    Processes.labeling(pathName, label)
+    #Processes.labeling(pathName, label)
 
     # 5.
-    #Processes.Optimizing(pathName, label)
+    Processes.Optimizing(pathName, label)

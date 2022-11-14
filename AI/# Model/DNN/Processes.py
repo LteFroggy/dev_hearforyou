@@ -1,8 +1,11 @@
 import os
 import torch
+import wandb
 import shutil
 import pickle
+import numpy as np
 import settings as set
+import hiddenlayer as hl
 import wav_functions as func
 import torch.nn.functional as F
 from tqdm import tqdm
@@ -333,6 +336,7 @@ class NeuralNetwork(nn.Module) :
     
     def forward(self, x) :
         logits = self.linear_relu_stack(x)
+        print(type(logits))
         return logits
         
 def train_loop(dataloader, model, loss_fn, optimizer) :
@@ -350,7 +354,7 @@ def train_loop(dataloader, model, loss_fn, optimizer) :
             loss, current = loss.item(), batch * len(X)
             print(f"Loss : {loss:>5f} {current:>5d} / {size:>5d}")
 
-def test_loop(dataloader, model, loss_fn) :
+def test_loop(dataloader, model, loss_fn, epoch) :
     size = len(dataloader.dataset)
     num_batches = len(dataloader)
     test_loss, correct = 0, 0
@@ -371,6 +375,9 @@ def test_loop(dataloader, model, loss_fn) :
     correct /= size
     print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
 
+    wandb.log({
+        "train_loss" : test_loss / len(X)
+        }, step = epoch)
     return test_loss, 100 * correct
 
 def Optimizing(path, label) :
@@ -404,7 +411,7 @@ def Optimizing(path, label) :
     for t in range(set.EPOCHS) :
         print(f"Epoch {t+1} \n ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
         train_loop(train_dataLoader, model, loss_fn, optimizer)
-        test_loss, accuracy = test_loop(test_dataLoader, model, loss_fn)
+        test_loss, accuracy = test_loop(test_dataLoader, model, loss_fn, t)
 
         if (t + 1) % 10 == 0 :
             saveModel(model, t, test_loss, accuracy)
@@ -421,10 +428,31 @@ def Optimizing(path, label) :
 def saveModel(model, epoch, test_loss, accuracy) :
     savePath = savePath = os.path.dirname(os.path.realpath(__file__))
     if (epoch + 1) % 50 == 0 :
-        torch.save(model, os.path.join(savePath, "model_" + str(epoch + 1) + " Epochs" + set.model_label + ".pt"))
+        torch.save(model, os.path.join(savePath, "model_" + str(epoch + 1) + " Epochs" + str(set.model_label) + ".pt"))
         torch.save(model.state_dict(), os.path.join(savePath, "state_dict_" + str(epoch + 1) + " Epochs" + str(set.model_label) + ".pt"))
     with open(os.path.join(savePath, "Model_Process_" + str(set.model_label) + ".txt"), "a") as file :
         context = []
         context.append(f"Epoch {epoch + 1} \n")
         context.append(f"Accuracy : {accuracy:>0.1f}Loss : {test_loss:>8f}\n\n")
         file.writelines(context)
+
+
+data_dir = set.dataPath
+data_dir = os.path.join(data_dir, "Urban")
+data_dir = os.path.join(data_dir, "4. ModelData")
+data_dir = os.path.join(data_dir, "50")
+data_dir = os.path.join(data_dir, "trainData")
+
+testDataSet = SoundDataset(data_dir = data_dir)
+testDataLoader = DataLoader(testDataSet, batch_size = 1, shuffle = True)
+
+loader = iter(testDataLoader)
+data = next(loader)
+
+transforms = [ hl.transforms.Prune('Constant') ]
+model = NeuralNetwork(len(set.UrbanSounds_labels))
+
+graph = hl.build_graph(model, data, transforms = transforms)
+graph.theme = hl.graph.THEMES['blue'].copy()
+
+graph

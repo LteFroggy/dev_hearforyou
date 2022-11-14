@@ -5,15 +5,15 @@ from pathlib import Path
 
 wandb.init(project="AI_CNN")
 
-LEARNING_RATE = 0.005
-BATCH_SIZE = 32
-EPOCHS = 200
-
 wandb.config = {
-  "learning_rate": 0.005,
-  "batch_size": 32,
+  "learning_rate": 0.001,
+  "batch_size": 256,
   "epochs": 200,
 }
+
+LEARNING_RATE = 0.001
+BATCH_SIZE = 256
+EPOCHS = 200
 
 # 음원파일을 불러올 때의 Sample Rate
 SAMPLE_RATE = 22050
@@ -39,4 +39,6 @@ TS_Labels = {
     2 : "3.차량경적"
 }
 
-dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent.parent, "data")
+model_label = "_CNN_221111"
+
+dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")

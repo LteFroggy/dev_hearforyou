@@ -1,5 +1,16 @@
 import os
+import wandb
 from pathlib import Path
+
+wandb.init(project="AI_DNN")
+
+wandb.config = {
+  "learning_rate": 0.005,
+  "batch_size": 32,
+  "epochs": 200,
+}
+
+
 # 기본 경로
 dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
 
@@ -38,4 +49,4 @@ model_label = 221101
 # AI용 학습 가중치
 LEARNING_RATE = 0.005
 BATCH_SIZE = 64
-EPOCHS = 300
+EPOCHS = 200
