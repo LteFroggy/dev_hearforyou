@@ -28,4 +28,5 @@ def main(soundName) :
         except Exception as e :
             continue
 
-    
+    with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "name_label.pkl"), "wb") as file :
+        pickle.dump(new_labels, file)
