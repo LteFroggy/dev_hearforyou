@@ -28,7 +28,6 @@ def main() :
     df.columns = csvContext[1]
     df = df.drop([0, 1], axis = 0)
     df = df.reset_index(drop = True)
-    # %%
     
     # soundData내의 폴더 하나하나에 대한 작업
     for folderName in soundFolders :
