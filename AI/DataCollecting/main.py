@@ -16,5 +16,5 @@ if __name__ == "__main__" :
     # # 3
     # changeExt.main(soundName)
 
-    # # 4
-    # cutFile.main(soundName)
+    # 4
+    cutFile.main(soundName)

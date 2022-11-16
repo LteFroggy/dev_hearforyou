@@ -1,11 +1,14 @@
 import os
 import pickle
 import librosa
+import warnings
 import soundfile
 from tqdm import tqdm
 from pathlib import Path
 
 def main(soundName) :
+    warnings.filterwarnings('ignore')
+
     basePath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
     basePath = os.path.join(basePath, soundName)
     dataPath = os.path.join(basePath, "downloaded")
@@ -25,9 +28,14 @@ def main(soundName) :
         filePath = os.path.join(dataPath, fileName)
         saveFilePath = os.path.join(savePath, fileName)
         
-        loadedFile, sr = librosa.load(filePath)
-        times = labels[os.path.splitext(fileName)[0]]
+        
+        try :
+            loadedFile, sr = librosa.load(filePath)
+            times = labels[os.path.splitext(fileName)[0]]
+            cuttedFile = loadedFile[int(sr * float(times[0])) : int(sr * float(times[1]))]
+            soundfile.write(file = saveFilePath, data = cuttedFile, samplerate = sr, format = 'wav')
+        except Exception as e:
+            print(f"Error : {e}")
+            continue
 
-        cuttedFile = loadedFile[sr * times[0] : sr * times[1]]
-
-        soundfile.write(file = saveFilePath, data = cuttedFile, samplerate = sr, format = 'wav')
+main("Screaming")
