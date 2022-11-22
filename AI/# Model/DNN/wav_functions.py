@@ -1,4 +1,5 @@
 import librosa
+import shutil
 import os
 import numpy as np
 import soundfile
@@ -115,3 +116,8 @@ def getFolderName(file) :
 
 def getMFCC(wav_file) :
     return np.mean(librosa.feature.mfcc(y=wav_file, sr=set.SAMPLE_RATE, n_mfcc=set.N_MFCCS).T, axis = 0)
+
+def removeUsedFolder(soundPath) :
+    print(f"{soundPath}폴더 삭제 중")
+    shutil.rmtree(soundPath)
+    print(f"{soundPath}폴더 삭제 완료")

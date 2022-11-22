@@ -3,6 +3,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 def main(soundName) :
+    print("파일명 변경 시작")
     basePath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
     basePath = os.path.join(basePath, soundName)
     dataPath = os.path.join(basePath, "downloaded")

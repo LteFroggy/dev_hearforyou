@@ -14,11 +14,12 @@ from tqdm import tqdm
 from matplotlib import pyplot as plt
 
 deleteFlag = [
-    False, # False면 전체 미삭제, True면 아래의 값에 따라 삭제 여부 결정
+    True, # False면 전체 미삭제, True면 아래의 값에 따라 삭제 여부 결정
     False, # RemovedSilence 폴더 삭제 여부
     False, # RegulatedSound 폴더 삭제 여부
-    False, # RegulatedPhoto 폴더 삭제 여부
+    True, # RegulatedPhoto 폴더 삭제 여부
     False, # CuttedPhoto 폴더 삭제 여부
+    False, # Resized 폴더 삭제 여부
 ]
 
 def removeSilence(target) :
@@ -130,7 +131,7 @@ def saveAsImage(target) :
     if not(os.path.isdir(savePath)) :
         os.mkdir(savePath)
 
-    for folderCount, folderName in enumerate(os.listdir(soundPath)) : 
+    for folderCount, folderName in enumerate(os.listdir(soundPath), start = 1) : 
         soundFolderPath = os.path.join(soundPath, folderName)
         saveFolderPath = os.path.join(savePath, folderName)
 
@@ -220,8 +221,8 @@ def cutImage(target) :
 def labeling(target, labels) :
     basePath = set.dataPath
     basePath = os.path.join(basePath, target)
-    dataPath = os.path.join(basePath, "2-2. CuttedPhoto")
-    savePath = os.path.join(basePath, "2-3. ModelData")
+    dataPath = os.path.join(basePath, "2-3. Resized")
+    savePath = os.path.join(basePath, "2-4. ModelData")
 
     if not(os.path.isdir(savePath)) :
         os.mkdir(savePath)
@@ -231,7 +232,7 @@ def labeling(target, labels) :
     label_train = []
     label_test = []
 
-    for folderCount, folderName in enumerate(dataFolderList) :
+    for folderCount, folderName in enumerate(dataFolderList, start = 1) :
         dataFolderPath = os.path.join(dataPath, folderName)
         trainFolderPath = os.path.join(savePath, "trainData")
         testFolderPath = os.path.join(savePath, "testData")
@@ -288,5 +289,45 @@ def labeling(target, labels) :
             pickle.dump(label_test, file)
 
     print(f"무음 제거 완료")
+    if deleteFlag[0] and deleteFlag[5] :
+        func.removeUsedFolder(dataPath)
+
+def imgResizing(target) :
+    basePath = set.dataPath
+    basePath = os.path.join(basePath, target)
+    dataPath = os.path.join(basePath, "2-2. CuttedPhoto")
+    savePath = os.path.join(basePath, "2-3. Resized")
+
+    if not (os.path.isdir(savePath)) :
+        os.mkdir(savePath)
+
+    folders = os.listdir(dataPath)
+    totalFolderCount = len(folders)
+    
+    for folderCount, folderName in enumerate(folders, start = 1) :
+        dataFolderPath = os.path.join(dataPath, folderName)
+        saveFolderPath = os.path.join(savePath, folderName)
+
+        if not (os.path.isdir(saveFolderPath)) :
+            os.mkdir(saveFolderPath)
+
+        try :  
+            dataFiles = os.listdir(dataFolderPath)
+        except :
+            continue
+        
+        for fileName in tqdm(dataFiles, desc = f"{folderName}폴더 [{folderCount} / {totalFolderCount}] 리사이징 진행 중") :
+            dataFilePath = os.path.join(dataFolderPath, fileName)
+            saveFilePath = os.path.join(saveFolderPath, fileName)
+            
+            try :
+                img = ImgLoader.open(dataFilePath)
+                img_resize = img.resize((set.CUT_SIZE, set.CUT_SIZE))
+                img_resize.save(saveFilePath, 'png')
+            except Exception as e:
+                print(e)
+                continue
+
+    print(f"리사이징 완료")
     if deleteFlag[0] and deleteFlag[4] :
         func.removeUsedFolder(dataPath)
