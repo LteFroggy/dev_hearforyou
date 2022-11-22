@@ -13,3 +13,8 @@ INFO:     127.0.0.1:53613 - "POST /uploadFile HTTP/1.1" 422 Unprocessable Entity
 INFO:     127.0.0.1:53625 - "POST /uploadFile HTTP/1.1" 422 Unprocessable Entity
 INFO:     127.0.0.1:53635 - "POST /uploadFile HTTP/1.1" 422 Unprocessable Entity
 INFO:     127.0.0.1:53651 - "POST /uploadFile HTTP/1.1" 422 Unprocessable Entity
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6035]
+INFO:     Stopping reloader process [6033]
