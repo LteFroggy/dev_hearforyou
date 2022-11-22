@@ -17,9 +17,12 @@ def getMid(soundName) :
     
 
 def main(soundName) :
+    print("csv파일 읽기 시작")
     # 3개의 csv파일을 읽어서 원하는 라벨을 가진 파일을 모두 꺼내 pickle로 저장한다.
-    basePath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
-    labelPath = os.path.join(basePath, soundName)
+    basePath = Path(os.path.dirname(os.path.realpath(__file__))).parent
+    csvBasePath = os.path.join(basePath, "csv")
+    labelPath = os.path.join(basePath, "data")
+    labelPath = os.path.join(labelPath, soundName)
 
     if not (os.path.isdir(labelPath)) :
         os.mkdir(labelPath)
@@ -28,7 +31,7 @@ def main(soundName) :
     csvPath = os.path.join(basePath, "csv")
     fileList = ["balanced_train_segments.csv", "eval_segments.csv", "unbalanced_train_segments.csv"]
     
-    mid = getMid()
+    mid = getMid(soundName)
 
     # fileName = "class_labels_indices.csv"
     # with open(os.path.join(basePath, fileName), "r") as file :
@@ -43,7 +46,7 @@ def main(soundName) :
     values = []
 
     for num, fileName in enumerate(fileList, start = 1) :
-        csvPath = os.path.join(basePath, fileName)
+        csvPath = os.path.join(csvBasePath, fileName)
         with open(csvPath, 'r') as file :
             reader = csv.reader(file)
             for line in tqdm(reader, desc = f"{fileName} 파일 라벨 처리 중 [{num} / {len(fileList)}]") :
@@ -58,7 +61,7 @@ def main(soundName) :
                 if num != -1 :
                     values.append([line[0], line[1], line[2], num])
 
-    print(f" 총 길이는 {len(values)} 입니다.")
+    print(f"총 길이는 {len(values)} 입니다.")
 
     with open(labelPath, "wb") as file :
         pickle.dump(values, file)

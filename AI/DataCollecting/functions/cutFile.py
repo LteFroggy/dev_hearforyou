@@ -7,6 +7,7 @@ from tqdm import tqdm
 from pathlib import Path
 
 def main(soundName) :
+    print("파일 커팅 시작")
     warnings.filterwarnings('ignore')
 
     basePath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
@@ -37,5 +38,3 @@ def main(soundName) :
         except Exception as e:
             print(f"Error : {e}")
             continue
-
-main("Screaming")

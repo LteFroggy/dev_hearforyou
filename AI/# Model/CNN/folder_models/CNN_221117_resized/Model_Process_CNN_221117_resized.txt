@@ -1,0 +1,60 @@
+Epoch 10 
+Accuracy : 93.0% Loss : 0.183901
+
+Epoch 20 
+Accuracy : 93.4% Loss : 0.171182
+
+Epoch 30 
+Accuracy : 93.3% Loss : 0.168893
+
+Epoch 40 
+Accuracy : 93.5% Loss : 0.168165
+
+Epoch 50 
+Accuracy : 93.5% Loss : 0.162593
+
+Epoch 60 
+Accuracy : 96.8% Loss : 0.094748
+
+Epoch 70 
+Accuracy : 96.9% Loss : 0.086371
+
+Epoch 80 
+Accuracy : 97.2% Loss : 0.081205
+
+Epoch 90 
+Accuracy : 97.1% Loss : 0.086233
+
+Epoch 100 
+Accuracy : 97.0% Loss : 0.083087
+
+Epoch 110 
+Accuracy : 97.2% Loss : 0.090456
+
+Epoch 120 
+Accuracy : 97.3% Loss : 0.084683
+
+Epoch 130 
+Accuracy : 97.1% Loss : 0.084582
+
+Epoch 140 
+Accuracy : 97.4% Loss : 0.077734
+
+Epoch 150 
+Accuracy : 97.2% Loss : 0.080911
+
+Epoch 160 
+Accuracy : 97.2% Loss : 0.087026
+
+Epoch 170 
+Accuracy : 97.3% Loss : 0.083429
+
+Epoch 180 
+Accuracy : 97.3% Loss : 0.082396
+
+Epoch 190 
+Accuracy : 97.3% Loss : 0.083330
+
+Epoch 200 
+Accuracy : 97.6% Loss : 0.073811
+

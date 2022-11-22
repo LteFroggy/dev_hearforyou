@@ -22,6 +22,7 @@ from pathlib import Path
 '''
 
 def main(soundName) :
+    print("파일 다운로드 및 라벨 수정 시작")
     basePath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
     basePath = os.path.join(basePath, soundName)
     savePath = os.path.join(basePath, "downloaded")

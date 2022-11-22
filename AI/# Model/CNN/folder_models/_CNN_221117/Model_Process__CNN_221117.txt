@@ -1,0 +1,15 @@
+Epoch 10 
+Accuracy : 95.0Loss : 0.138404
+
+Epoch 20 
+Accuracy : 95.5Loss : 0.124900
+
+Epoch 30 
+Accuracy : 97.4Loss : 0.074531
+
+Epoch 40 
+Accuracy : 97.5Loss : 0.073544
+
+Epoch 50 
+Accuracy : 97.5Loss : 0.070236
+

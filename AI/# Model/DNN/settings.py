@@ -6,13 +6,13 @@ wandb.init(project="AI_DNN")
 
 wandb.config = {
   "learning_rate": 0.005,
-  "batch_size": 32,
+  "batch_size": 64,
   "epochs": 200,
 }
 
 
 # 기본 경로
-dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent, "data")
+dataPath = os.path.join(Path(os.path.dirname(os.path.realpath(__file__))).parent.parent, "data")
 
 # 음원파일을 불러올 때의 Sample Rate
 SAMPLE_RATE = 22050
@@ -24,11 +24,14 @@ CUT_SEC = 1
 N_MFCCS = 50
 
 # 라벨 종류 -------------------------------------------------------------------------
-UrbanSounds_labels = {
+main_label = {
     0 : "개 짖는 소리",
     1 : "사이렌",
     2 : "차량 경적 소리",
-    3 : "총소리"
+    3 : "총소리",
+    4 : "Fire alarm",
+    5 : "Screaming",
+    6 : "Skidding"
 }
 
 test_Labels = {
@@ -44,7 +47,7 @@ sample_label = {
 
 # 모델의 구분을 위해 붙일 값
 # 예시처럼 220910이면 결과 모델은 model_N Epochs_221101.pt 의 형태로 나옴
-model_label = 221101
+model_label = "DNN_221117"
 
 # AI용 학습 가중치
 LEARNING_RATE = 0.005

@@ -5,13 +5,21 @@ import shutil
 import pickle
 import numpy as np
 import settings as set
-import hiddenlayer as hl
 import wav_functions as func
 import torch.nn.functional as F
 from tqdm import tqdm
 from torch import nn
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
+
+device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
+deleteFlag = [
+    False, # False면 전체 미삭제, True면 아래의 값에 따라 삭제 여부 결정
+    False, # RemovedSilence 폴더 삭제 여부
+    False, # RegulatedSound 폴더 삭제 여부
+    False, # RegulatedPhoto 폴더 삭제 여부
+    False, # CuttedPhoto 폴더 삭제 여부
+]
 
 def removeSilence(target) :
     basePath = set.dataPath
@@ -29,7 +37,6 @@ def removeSilence(target) :
         soundPath_folder = os.path.join(soundPath, folderName)
         try :   
             soundFiles = os.listdir(soundPath_folder)
-            print(folderName + " 폴더 무음부분 제거 시작")
         except :
             print(folderName + " 는 폴더가 아닙니다")
             continue
@@ -40,21 +47,26 @@ def removeSilence(target) :
             os.mkdir(savePath_folder)
             # print(folderName + " 생성")
 
-        for fileName in tqdm(soundFiles, desc = f"{folderName} 폴더[{folderCount} / {totalFolderCount}] 무음부분 제거 진행 중)") :
+        for fileName in tqdm(soundFiles, desc = f"{folderName} 폴더[{folderCount} / {totalFolderCount}] 무음부분 제거 진행 중") :
             # 파일을 librosa를 이용하여 읽어오기
             soundPath_file = os.path.join(soundPath_folder, fileName)
             try :   
-                wav_loaded = func.loadWAV(soundPath_file)
+                wav_loaded = func.loadWAV(soundPath_file)\
+                    
+                # 파일에서 아무 소리 없는 부분을 제거한다
+                wav_removed = func.removeSilence(wav_loaded)
             except :
                 continue
+            # func.drawPlot(wav_loaded, "Raw Data")
 
-            # 파일에서 아무 소리 없는 부분을 제거한다
-            wav_removed = func.removeSilence(wav_loaded)
+
             
             # 0.5초가 넘어가는 파일만 저장
             if len(wav_removed) >= 0.5 * set.SAMPLE_RATE :
                 func.saveFile(os.path.join(savePath_folder, fileName), wav_removed)
-    print("무음부분 제거 완료")
+
+    print(f"무음 제거 완료")
+
 
 
 def lengthRegulate(target) :
@@ -80,7 +92,6 @@ def lengthRegulate(target) :
         #먼저 폴더 내의 데이터를 처리하기 위해 각각의 데이터를 읽음
         try :
             sourceFiles = os.listdir(sourceFolderPath)
-            print(folderName, "폴더 길이 균일화 시작")
         except :
             print(folderName + " 는 폴더가 아닙니다")
             continue
@@ -89,11 +100,9 @@ def lengthRegulate(target) :
         if not os.path.isdir(saveFolderPath) :
             os.mkdir(saveFolderPath)
             # print(folderName, "폴더 생성")
-        else :
-            continue
 
         # 파일 하나씩 처리
-        for fileName in tqdm(sourceFiles, desc = f"{folderName} 폴더[{folderCount} / {totalFolderCount}] 길이 균일화 진행 중)") :
+        for fileName in tqdm(sourceFiles, desc = f"{folderName} 폴더[{folderCount} / {totalFolderCount}] 길이 균일화 진행 중") :
             # 먼저 처리를 위해 데이터를 읽어오기
             sourceFilePath = os.path.join(sourceFolderPath, fileName)
             saveFilePath = os.path.join(saveFolderPath, fileName)
@@ -105,22 +114,14 @@ def lengthRegulate(target) :
             
             # 함수를 수행하고 파일을 1초씩 자른 wav_result 받기
             wav_result = func.regulateFile(wav_loaded)
-
+            
             saveFilePath = saveFilePath[ : len(saveFilePath) - 4]
             for num in range(len(wav_result)) :
-                try :
-                    func.saveFile(saveFilePath + "_" + str(num) + ".wav", wav_result[num])
-                except :
-                    print(f"에러 발생, 파일명은 {fileName}")
-                    print(f"원본 데이터의 길이는 {len(wav_loaded)}")
-                    print(f"받아온 결과 리스트의 길이는 {len(wav_result)}")
-                    print(f"받아온 결과 리스트의 값은 {wav_result}")
-                    continue
+                func.saveFile(saveFilePath + "_" + str(num) + ".wav", wav_result[num])
 
-    print("길이 균일화 완료")
-    print(f"{sourcePath}폴더 삭제 중")
-    shutil.rmtree(sourcePath)
-    print(f"{sourcePath}폴더 삭제 완료")
+    print(f"정규화 완료")
+    if deleteFlag[0] and deleteFlag[1] :
+        func.removeUsedFolder(sourcePath)
 
 
 def getMFCC(target) :
@@ -336,7 +337,6 @@ class NeuralNetwork(nn.Module) :
     
     def forward(self, x) :
         logits = self.linear_relu_stack(x)
-        print(type(logits))
         return logits
         
 def train_loop(dataloader, model, loss_fn, optimizer) :
@@ -426,33 +426,19 @@ def Optimizing(path, label) :
 
 # 일정 에포크 수마다 모델을 저장하고, 진행 경과를 텍스트파일을 만들어서 저장
 def saveModel(model, epoch, test_loss, accuracy) :
-    savePath = savePath = os.path.dirname(os.path.realpath(__file__))
+    savePath = os.path.dirname(os.path.realpath(__file__))
+    savePath = os.path.join(savePath, "folder_models")
+    savePath = os.path.join(savePath, str(set.model_label))
+    
+    if not (os.path.isdir(savePath)) :
+        os.mkdir(savePath)
+    
+
     if (epoch + 1) % 50 == 0 :
-        torch.save(model, os.path.join(savePath, "model_" + str(epoch + 1) + " Epochs" + str(set.model_label) + ".pt"))
-        torch.save(model.state_dict(), os.path.join(savePath, "state_dict_" + str(epoch + 1) + " Epochs" + str(set.model_label) + ".pt"))
+        torch.save(model, os.path.join(savePath, "model_" + str(epoch + 1) + " Epochs_" + str(set.model_label) + ".pt"))
+        torch.save(model.state_dict(), os.path.join(savePath, "state_dict_" + str(epoch + 1) + " Epochs_" + str(set.model_label) + ".pt"))
     with open(os.path.join(savePath, "Model_Process_" + str(set.model_label) + ".txt"), "a") as file :
         context = []
         context.append(f"Epoch {epoch + 1} \n")
-        context.append(f"Accuracy : {accuracy:>0.1f}Loss : {test_loss:>8f}\n\n")
+        context.append(f"Accuracy : {accuracy:>0.1f}% Loss : {test_loss:>8f}\n\n")
         file.writelines(context)
-
-
-data_dir = set.dataPath
-data_dir = os.path.join(data_dir, "Urban")
-data_dir = os.path.join(data_dir, "4. ModelData")
-data_dir = os.path.join(data_dir, "50")
-data_dir = os.path.join(data_dir, "trainData")
-
-testDataSet = SoundDataset(data_dir = data_dir)
-testDataLoader = DataLoader(testDataSet, batch_size = 1, shuffle = True)
-
-loader = iter(testDataLoader)
-data = next(loader)
-
-transforms = [ hl.transforms.Prune('Constant') ]
-model = NeuralNetwork(len(set.UrbanSounds_labels))
-
-graph = hl.build_graph(model, data, transforms = transforms)
-graph.theme = hl.graph.THEMES['blue'].copy()
-
-graph
