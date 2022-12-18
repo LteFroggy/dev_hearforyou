@@ -1,0 +1,51 @@
+import librosa
+import torch
+import numpy as np
+import soundfile
+import torch.nn.functional as F
+import settings as set
+
+# 모델을 load 해서 사용하려 한다면 꼭 모델을 import해줘야 함!
+from dnn_model import NeuralNetwork
+
+# 파일 경로와 모델 경로를 적어주면 모든 과정을 수행해서 결과를 반환해주는 함수
+def all_in_one(filePath, modelPath) :
+    loaded_file = loadWAV(filePath)
+    cutted_file = cutFile(loaded_file)
+    earned_mfcc = torch.Tensor(getMFCC(cutted_file))
+    model = loadModel(modelPath)
+    return getPrediction(model, earned_mfcc)
+
+# filePath를 입력받아 wav(mp3, m4a 등의 다른 형식도 가능)파일을 리턴해주는 함수
+def loadWAV(filePath) :
+    return librosa.load(filePath, sr = set.SAMPLE_RATE)[0]
+
+# 저장할 경로와 wav파일을 입력받아 저장해주는 함수. 확장자는 wav여야 함. ex) savePath = /assets/sounds/sample.wav
+def saveFile(savePath, wavFile) :
+    soundfile.write(file = savePath, data = wavFile, samplerate = set.SAMPLE_RATE, format = 'wav')
+
+# 들어온 파일의 마지막 1초만 잘라서 돌려주는 함수
+def cutFile(wav_loaded) :
+    return wav_loaded[-(set.SAMPLE_RATE):]
+
+# wav파일을 입력받아 MFCC를 반환해주는 함수
+def getMFCC(wav_file) :
+    mfcc = np.mean(librosa.feature.mfcc(y=wav_file, sr=set.SAMPLE_RATE, n_mfcc=set.N_MFCCS).T, axis = 0)
+    return torch.Tensor(mfcc)
+
+# 모델의 경로를 입력받아 모델을 반환해주는 함수
+def loadModel(modelPath) :
+    model = NeuralNetwork(len(set.label))
+    model.load_state_dict(torch.load(modelPath))
+    model.eval()
+    return model
+
+# 모델과 input을 입력받아 판단 결과를 반환해주는 함수
+def getPrediction(model, values) :
+    pred = model(values)
+    highest_softmax = F.softmax(pred, dim = 0)
+
+    if highest_softmax.max() > 0.8 :
+        return set.label[highest_softmax.argmax()]
+    else :
+        return "null"

@@ -68,7 +68,6 @@ def removeSilence(target) :
     print(f"무음 제거 완료")
 
 
-
 def lengthRegulate(target) :
     basePath = set.dataPath
     basePath = os.path.join(basePath, target)
