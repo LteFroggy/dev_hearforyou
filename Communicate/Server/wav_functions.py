@@ -11,9 +11,11 @@ from dnn_model import NeuralNetwork
 # 파일 경로와 모델 경로를 적어주면 모든 과정을 수행해서 결과를 반환해주는 함수
 def all_in_one(filePath, modelPath) :
     loaded_file = loadWAV(filePath)
-    cutted_file = cutFile(loaded_file)
-    earned_mfcc = torch.Tensor(getMFCC(cutted_file))
+    print("음원 불러오기 완료")
+    earned_mfcc = torch.Tensor(getMFCC(loaded_file))
+    print("mfcc 구하기 완료")
     model = loadModel(modelPath)
+    print("모델 불러오기 완료")
     return getPrediction(model, earned_mfcc)
 
 # filePath를 입력받아 wav(mp3, m4a 등의 다른 형식도 가능)파일을 리턴해주는 함수
@@ -23,10 +25,6 @@ def loadWAV(filePath) :
 # 저장할 경로와 wav파일을 입력받아 저장해주는 함수. 확장자는 wav여야 함. ex) savePath = /assets/sounds/sample.wav
 def saveFile(savePath, wavFile) :
     soundfile.write(file = savePath, data = wavFile, samplerate = set.SAMPLE_RATE, format = 'wav')
-
-# 들어온 파일의 마지막 1초만 잘라서 돌려주는 함수
-def cutFile(wav_loaded) :
-    return wav_loaded[-(set.SAMPLE_RATE):]
 
 # wav파일을 입력받아 MFCC를 반환해주는 함수
 def getMFCC(wav_file) :
@@ -43,9 +41,9 @@ def loadModel(modelPath) :
 # 모델과 input을 입력받아 판단 결과를 반환해주는 함수
 def getPrediction(model, values) :
     pred = model(values)
-    highest_softmax = F.softmax(pred, dim = 0)
+    softmax = F.softmax(pred, dim = 0)
 
-    if highest_softmax.max() > 0.8 :
-        return set.label[highest_softmax.argmax()]
+    if softmax.max() > 0.95 :
+        return set.label[softmax.argmax().item()]
     else :
-        return "null"
+        return "unknown"
