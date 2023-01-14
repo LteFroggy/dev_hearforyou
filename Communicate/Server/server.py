@@ -16,14 +16,8 @@ app = FastAPI()
 templates = Jinja2Templates(directory = "htmlFile")
 
 @app.get("/")
-async def testRoot() :
+async def mainPage() :
     return RedirectResponse("https://wkkyu088.notion.site/67d74dc6c94644689fa74df159775d09")
-    # message = []
-    # message.append("Hello, World!")
-    # message.append("Welcome to my server")
-    # return {
-    #     "message" : message
-    # }
 
 @app.post("/uploadLog")
 async def logUpload(logList : list[str] = Form(), userName : str = Form()) :
