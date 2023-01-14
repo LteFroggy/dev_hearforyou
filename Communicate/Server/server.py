@@ -17,7 +17,7 @@ templates = Jinja2Templates(directory = "htmlFile")
 
 @app.get("/")
 async def testRoot() :
-    return RedirectResponse("https://developer-ping9.tistory.com/320")
+    return RedirectResponse("https://wkkyu088.notion.site/67d74dc6c94644689fa74df159775d09")
     # message = []
     # message.append("Hello, World!")
     # message.append("Welcome to my server")
