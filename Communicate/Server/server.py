@@ -83,7 +83,7 @@ async def fileUpload(file : UploadFile = Form(), userName : str = Form()) :
          
         # 저장할 파일은 유저별 폴더 만들고 분류결과_시간으로 저장
         now = datetime.now()
-        timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
+        timestamp = now.strftime('%Y-%m-%d %H시%M분%S초')
         fileName =  "_" + timestamp + ".wav"
         savePath = os.path.join(dirName, fileName)
 
