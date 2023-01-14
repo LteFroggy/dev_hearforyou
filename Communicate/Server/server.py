@@ -3,22 +3,70 @@ import time
 import shutil
 import uvicorn
 import wav_functions as func
+from fastapi.responses import HTMLResponse
 from pathlib import Path
 from datetime import datetime
 from pydantic import BaseModel
 from dnn_model import NeuralNetwork
-from fastapi import FastAPI, File, UploadFile, Form
+from fastapi import FastAPI, File, UploadFile, Form, Request
+from fastapi.templating import Jinja2Templates
+from fastapi.responses import RedirectResponse
 
 app = FastAPI()
+templates = Jinja2Templates(directory = "htmlFile")
 
 @app.get("/")
 async def testRoot() :
+    return RedirectResponse("https://developer-ping9.tistory.com/320")
+    # message = []
+    # message.append("Hello, World!")
+    # message.append("Welcome to my server")
+    # return {
+    #     "message" : message
+    # }
+
+@app.post("/uploadLog")
+async def logUpload(logList : list[str] = Form(), userName : str = Form()) :
     message = []
-    message.append("Hello, World!")
-    message.append("Welcome to my server")
-    return {
-        "message" : message
-    }
+    try : 
+        # string list 받기
+        dirName = os.path.dirname(os.path.realpath(__file__))
+        dirName = os.path.join(dirName, "errorLogs")
+
+        # errorLogs 폴더가 없다면 새로 만들기
+        if not (os.path.isdir(dirName)) : 
+            os.mkdir(dirName)
+
+        dirName = os.path.join(dirName, userName)
+
+        # 유저별 폴더가 없다면 새로 만들기
+        if not (os.path.isdir(dirName)) : 
+            os.mkdir(dirName)
+
+        # 파일명 정하기
+        now = datetime.now()
+        timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
+        fileName = timestamp + ".log"
+        savePath = os.path.join(dirName, fileName)
+
+        with open(savePath, "w") as f :
+            for i in range(len(logList)) :
+                f.write(logList[i] + "\n")
+        message.append("로그 저장 완료")
+
+        print("로그 정상적으로 저장")
+
+        return {
+            message : message
+        }
+    except Exception as e:
+        print(e)
+
+@app.get("/privacy", response_class=HTMLResponse)
+async def returnPrivacy(request : Request) :
+    context = {'request' : request}
+    return templates.TemplateResponse("privacy.html", context)
+
 
 @app.post("/uploadFile")
 async def fileUpload(file : UploadFile = Form(), userName : str = Form()) :
@@ -72,4 +120,4 @@ async def fileUpload(file : UploadFile = Form(), userName : str = Form()) :
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host = "127.0.0.1", port = 8000)
+    uvicorn.run(app, host = "127.0.0.1", port = 80)
