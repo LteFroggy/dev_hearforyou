@@ -29,9 +29,11 @@ main_label = {
     1 : "사이렌",
     2 : "차량 경적 소리",
     3 : "총소리",
-    4 : "Fire alarm",
-    5 : "Screaming",
-    6 : "Skidding"
+    4 : "박수",
+    5 : "남성",
+    6 : "여성",
+    7 : "아이",
+    8 : "비명"
 }
 
 test_Labels = {
@@ -47,7 +49,7 @@ sample_label = {
 
 # 모델의 구분을 위해 붙일 값
 # 예시처럼 220910이면 결과 모델은 model_N Epochs_221101.pt 의 형태로 나옴
-model_label = "DNN_221117"
+model_label = "DNN_230124"
 
 # AI용 학습 가중치
 LEARNING_RATE = 0.005

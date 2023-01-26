@@ -3,7 +3,6 @@ import pickle
 from tqdm import tqdm
 from pytube import YouTube
 from pathlib import Path
-
 '''
     Youtube 객체에서 가져올 수 있는 정보
     
@@ -45,7 +44,7 @@ def main(soundName) :
         try :
             yt.streams.filter(only_audio = True).first().download(savePath)
             new_labels[yt.title] = [line[1], line[2]]
-        except Exception as e :
+        except :
             continue
 
     with open(newPklPath, "wb") as file :

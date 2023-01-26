@@ -433,7 +433,7 @@ def saveModel(model, epoch, test_loss, accuracy) :
         os.mkdir(savePath)
     
 
-    if (epoch + 1) % 50 == 0 :
+    if (epoch + 1) % 10 == 0 :
         torch.save(model, os.path.join(savePath, "model_" + str(epoch + 1) + " Epochs_" + str(set.model_label) + ".pt"))
         torch.save(model.state_dict(), os.path.join(savePath, "state_dict_" + str(epoch + 1) + " Epochs_" + str(set.model_label) + ".pt"))
     with open(os.path.join(savePath, "Model_Process_" + str(set.model_label) + ".txt"), "a") as file :

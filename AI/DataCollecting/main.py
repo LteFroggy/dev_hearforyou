@@ -4,16 +4,18 @@ import functions.read_csv as read_csv
 import functions.changeExt as changeExt
 
 if __name__ == "__main__" :
-    soundName = "Screaming"
+    soundName = ["Female speech, woman speaking", "Child speech, kid speaking", "Clapping"]
 
-    # 1
-    read_csv.main(soundName)
+    for i in range(len(soundName)) :
+        # # 1
+        # read_csv.main(soundName[i])
 
-    # 2
-    getFile.main(soundName)
+        # # 2
+        # getFile.main(soundName[i])
 
-    # 3
-    changeExt.main(soundName)
+        # # 3
+        # changeExt.main(soundName[i])
 
-    # 4
-    cutFile.main(soundName)
+        # 4
+        cutFile.main(soundName[i])
+        

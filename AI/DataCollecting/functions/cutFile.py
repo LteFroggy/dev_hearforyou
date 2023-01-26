@@ -23,6 +23,8 @@ def main(soundName) :
     with open(labelPath, "rb") as file :
         labels = pickle.load(file)
 
+    print(labels)
+
     dataFiles = os.listdir(dataPath)
 
     for fileName in tqdm(dataFiles, desc = f"받은 파일을 자르는 중") :
