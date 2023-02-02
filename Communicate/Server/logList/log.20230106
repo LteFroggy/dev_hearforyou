@@ -1,0 +1,300 @@
+INFO:     Started server process [932]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:7500 (Press CTRL+C to quit)
+INFO:     Started server process [962]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     211.212.69.118:56972 - "GET /docs HTTP/1.1" 200 OK
+INFO:     211.212.69.118:56972 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57021 - "GET /docs HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57021 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Started server process [1217]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     211.212.69.118:57171 - "GET /docs HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57171 - "GET /openapi.json HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35444 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35480 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35482 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35484 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35486 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35488 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35490 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35492 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35494 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35496 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35498 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35564 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35568 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35580 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35582 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35584 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35586 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:35588 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     Started server process [1656]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     211.212.69.118:57326 - "GET /docs HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57326 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57330 - "GET /docs HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57330 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     178.128.152.163:39676 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     157.230.210.51:24260 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     147.182.172.69:56720 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     65.49.20.100:54633 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.20.100:33169 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     65.49.20.76:51413 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     138.197.140.142:51140 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.9:58432 - "GET / HTTP/1.1" 200 OK
+INFO:     198.199.106.111:47784 - "GET / HTTP/1.1" 200 OK
+INFO:     35.87.172.86:48772 - "GET / HTTP/1.1" 200 OK
+INFO:     103.203.57.20:60054 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     167.248.133.47:33112 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.47:45036 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.47:33644 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.248.133.47:49974 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     65.49.20.87:38081 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.20.79:37583 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     65.49.20.87:48331 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     175.196.97.39:62820 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     175.196.97.39:62871 - "POST /uploadFile HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.71.205.74:34882 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.29:62512 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.198:35535 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.211:29369 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     64.62.197.202:30907 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56149 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56159 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56169 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56189 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56205 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56198 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56182 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56217 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56633 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56651 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:56672 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:53471 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:53467 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:53717 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:53730 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:53740 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:53722 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:58612 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     128.134.0.90:55489 - "GET /docs HTTP/1.1" 200 OK
+INFO:     128.134.0.90:55489 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     128.134.0.90:55489 - "GET /docs HTTP/1.1" 200 OK
+INFO:     128.134.0.90:55489 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     128.134.0.90:55489 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:58682 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:58819 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:58928 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:55622 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:55885 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:58400 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:62720 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     128.134.0.90:62752 - "POST /uploadFile HTTP/1.1" 200 OK

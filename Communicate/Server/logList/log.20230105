@@ -1,0 +1,112 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/dev_hearforyou/Communicate/Server/server.py", line 5, in <module>
+    import wav_functions as func
+  File "/home/ubuntu/dev_hearforyou/Communicate/Server/wav_functions.py", line 2, in <module>
+    import torch
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/__init__.py", line 218, in <module>
+    from torch._C import *  # noqa: F403
+RuntimeError: KeyboardInterrupt: <EMPTY MESSAGE>
+INFO:     Started server process [35430]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     211.63.148.12:63543 - "GET / HTTP/1.1" 200 OK
+INFO:     211.63.148.12:63543 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.63.148.12:58570 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.63.148.12:58757 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.63.148.12:58767 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     211.63.148.12:63648 - "GET / HTTP/1.1" 200 OK
+INFO:     211.63.148.12:63648 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     211.63.148.12:63650 - "GET / HTTP/1.1" 200 OK
+INFO:     211.63.148.12:63650 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     211.63.148.12:63674 - "GET / HTTP/1.1" 200 OK
+INFO:     211.63.148.12:63674 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.63.148.12:60568 - "POST /uploadFile HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     64.227.6.109:35922 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     117.187.173.2:50746 - "GET / HTTP/1.1" 200 OK
+INFO:     117.187.173.2:50798 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     117.187.173.2:50932 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     117.187.173.2:50934 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     167.248.133.46:45820 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.46:33630 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.248.133.46:39900 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     206.189.190.86:7044 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:53775 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     87.236.176.241:55637 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:53802 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:53826 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:53836 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     211.212.69.118:53882 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     192.81.208.236:49658 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     211.212.69.118:57153 - "GET / HTTP/1.1" 200 OK
+INFO:     211.212.69.118:57153 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     58.228.135.217:60022 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     58.228.135.217:60030 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     58.228.135.217:60190 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     58.228.135.217:60266 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     205.210.31.31:61048 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+정상적으로 반환됨
+INFO:     58.228.135.217:63954 - "POST /uploadFile HTTP/1.1" 200 OK

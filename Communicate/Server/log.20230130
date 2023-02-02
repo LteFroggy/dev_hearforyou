@@ -1,0 +1,749 @@
+INFO:     Started server process [134941]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     185.224.128.219:55616 - "GET /admin/config.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.4:62796 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.67:33416 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.68:48242 - "GET /privacy HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.30956193804740906
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     182.230.104.224:48028 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     95.214.235.205:40528 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:43530 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     34.64.82.65:33898 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.64:37928 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     94.102.61.10:46224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.67:42722 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.68:57486 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     34.64.82.64:38666 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.72:38514 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     92.223.85.212:1903 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:34200 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:42928 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:58226 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:60764 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     205.210.31.152:58762 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     18.143.60.138:33972 - "GET /v1/graphql HTTP/1.1" 404 Not Found
+INFO:     223.240.101.111:35888 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     179.43.177.242:35940 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.254.196.115:60768 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:35154 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     34.78.6.216:43646 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.180.143.79:59790 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.180.143.79:35262 - "GET /showLogin.cc HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.59.181.111:47480 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     184.105.139.68:64422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     193.118.53.194:32860 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     184.105.139.68:53382 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     184.105.139.68:29602 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     208.80.194.41:60670 - "GET / HTTP/1.0" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     34.65.47.177:52604 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     1.14.7.100:36838 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     66.249.92.193:42977 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     66.249.92.195:42417 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     92.118.39.82:60958 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.254.196.115:56564 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:35476 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     185.254.196.115:49854 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:53598 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     159.223.237.112:52446 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     103.174.115.197:54756 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     179.43.177.242:57848 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     183.136.225.32:46990 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:39553 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:42075 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:47761 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:56763 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:53126 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:56186 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54922 - "GET /temp.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54050 - "GET /php.ini HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54893 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53809 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54743 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54330 - "GET /test.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53247 - "GET /i.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53353 - "GET /php.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53331 - "GET /php_info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53197 - "GET /phptest.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53434 - "GET /index.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54627 - "GET /dashboard/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53724 - "GET /infophp.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:54594 - "GET /p.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53941 - "GET /php-info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53790 - "GET /testphp.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53729 - "GET /phpinfo1.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53201 - "GET /test1.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52962 - "GET /info1.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52701 - "GET /phpinfo2.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:53079 - "GET /pinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52641 - "GET /scripts/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52881 - "GET /inf.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52810 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52527 - "GET /admin/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52366 - "GET /admin/info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52317 - "GET /test2.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52908 - "GET /index1.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52169 - "GET /forum/info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52439 - "GET /phpinfo/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52572 - "GET /token.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52184 - "GET /ini.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:52694 - "GET /in.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51792 - "GET /phpinfos.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51708 - "GET /scripts/info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51976 - "GET /test4.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51800 - "GET /foo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51332 - "GET /php/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51545 - "GET /dev.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51141 - "GET /test3.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51302 - "GET /phpinfo.txt HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51588 - "GET /info2.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51208 - "GET /forum/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61516 - "GET /administrator/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51068 - "GET /root/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61284 - "GET /root/info.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61173 - "GET /infos.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61303 - "GET /.env.www HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61474 - "GET /.env_1 HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61011 - "GET /.env_sample HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60644 - "GET /.env.%7B%7BDN%7D%7D HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61242 - "GET /.env.%7B%7BSD%7D%7D HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60750 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60683 - "GET /_static/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60424 - "GET /.docker/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60555 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51028 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60395 - "GET /.env.dev HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51180 - "GET /.env.example HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50978 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50893 - "GET /.env.php HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50903 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51032 - "GET /.env.production.local HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50780 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50980 - "GET /.env.stage HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50884 - "GET /.env.test HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50897 - "GET /actions-server/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50716 - "GET /admin-app/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60229 - "GET /admin/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60648 - "GET /adminer/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50750 - "GET /administrator/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50305 - "GET /agora/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50442 - "GET /alpha/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50495 - "GET /anaconda/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50239 - "GET /api/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50094 - "GET /api/src/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:63447 - "GET /app_dir/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49738 - "GET /app/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50306 - "GET /app/client/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50289 - "GET /app/config/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50187 - "GET /app/config/dev/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:63480 - "GET /app/frontend/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:63104 - "GET /apps/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:63195 - "GET /apps/client/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:63590 - "GET /Archipel/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:63585 - "GET /asset_img/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49651 - "GET /assets/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49944 - "GET /audio/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49961 - "GET /awstats/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49559 - "GET /back/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49557 - "GET /backend/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:50005 - "GET /backend/src/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49739 - "GET /backendfinaltest/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62875 - "GET /backup/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62204 - "GET /base_dir/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62503 - "GET /basic-network/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62906 - "GET /bgoldd/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62645 - "GET /bitcoind/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62779 - "GET /blankon/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62908 - "GET /blob/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49520 - "GET /blog/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62213 - "GET /blue/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62970 - "GET /bookchain-client/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61956 - "GET /bootstrap/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62059 - "GET /bucoffea/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62152 - "GET /build/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49569 - "GET /cardea/backend/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61843 - "GET /cdw-backend/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49623 - "GET /cgi-bin/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62557 - "GET /challenge/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49414 - "GET /challenges/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49354 - "GET /charts/liveObjects/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61980 - "GET /chat-client/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:62762 - "GET /chiminey/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49551 - "GET /client-app/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:49331 - "GET /client/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65453 - "GET /client/src/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65286 - "GET /ClientApp/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65068 - "GET /clld_dir/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65351 - "GET /collected_static/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65025 - "GET /community/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64849 - "GET /conf/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65220 - "GET /config/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:65519 - "GET /ContainerRegistry/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64663 - "GET /content/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61799 - "GET /core/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64826 - "GET /core/app/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:61783 - "GET /core/Datavase/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64865 - "GET /core/persistence/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64458 - "GET /counterblockd/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64411 - "GET /counterwallet/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64477 - "GET /cp/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64438 - "GET /cron/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64724 - "GET /cronlab/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60309 - "GET /cryo_project/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59286 - "GET /css/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60349 - "GET /custom/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60250 - "GET /d/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64306 - "GET /data/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:60240 - "GET /database/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64125 - "GET /dataset/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:64357 - "GET /default/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59817 - "GET /delivery/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59816 - "GET /demo-app/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59938 - "GET /demo/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59911 - "GET /deploy/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59843 - "GET /developerslv/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:51653 - "GET /development/.env HTTP/1.1" 404 Not Found
+INFO:     35.89.113.8:59978 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.254.196.115:48274 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:51696 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     92.223.85.252:6355 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     18.132.71.51:40428 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     149.28.84.63:53983 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     185.254.196.115:52018 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:54432 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     198.20.189.215:39558 - "HEAD http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     144.168.219.88:35290 - "GET http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     54.159.70.194:37022 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     209.127.110.51:18838 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     34.229.141.22:37092 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.110:36052 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:36808 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     128.14.209.170:47804 - "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1" 404 Not Found
+INFO:     185.224.128.219:33558 - "GET /admin/config.php HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:60452 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     205.210.31.29:57123 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     183.136.225.32:15750 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     64.43.116.144:41770 - "HEAD http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     144.168.218.177:34476 - "HEAD http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     170.247.223.176:53286 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     64.43.109.239:15792 - "GET http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     18.208.106.55:50480 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     170.247.221.171:4336 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     54.166.195.215:39172 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:52910 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:56578 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:41921 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:50729 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:6069 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:10691 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     135.125.246.110:60804 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:33156 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.224.128.219:52124 - "GET /admin/config.php HTTP/1.1" 404 Not Found
+INFO:     34.64.82.72:57008 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.64:42564 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     162.243.133.13:53552 - "GET /druid/index.html HTTP/1.1" 404 Not Found
+INFO:     82.151.123.166:7798 - "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 Not Found
+INFO:     205.169.39.63:36615 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     205.169.39.146:44215 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     205.169.39.146:8228 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:58358 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:33460 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     103.145.106.217:65082 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     103.29.71.244:61000 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     34.64.82.72:57988 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     5.181.80.149:52180 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     205.169.39.63:58556 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.110:56864 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:57614 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     89.104.101.55:37287 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     176.53.222.33:34833 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     179.43.177.242:40070 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:59570 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:33864 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     45.9.75.135:54356 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:37250 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:37930 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     3.142.172.109:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     123.60.146.214:57953 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     5.188.210.227:46307 - "GET http%3A//5.188.210.227/echo.php HTTP/1.1" 404 Not Found
+INFO:     106.75.24.102:55028 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     125.118.1.206:50860 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     198.235.24.14:59710 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     66.240.236.109:52830 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     27.124.12.29:57997 - "GET /d/175869.html HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:51448 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:54180 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:48742 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:49322 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     205.169.39.191:54409 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     205.169.39.191:59664 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     20.172.164.82:62830 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     20.172.164.82:62874 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     94.102.61.10:41906 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     117.33.227.207:54608 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.254.196.115:50814 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:53204 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:58454 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59126 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     27.124.12.29:63313 - "GET /mao-476467.html HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:50146 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.146.58:45654 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.146.58:34820 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.254.196.115:40430 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:43190 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:50842 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:51936 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     34.64.82.70:52826 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.70:52842 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     198.235.24.131:57672 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.64:33312 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.71:51788 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     165.227.120.179:54154 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.64:34184 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     162.142.125.210:51856 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     162.142.125.210:39022 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     162.142.125.210:49492 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     1.14.7.100:42568 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     161.97.174.99:64764 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     161.97.174.99:39372 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     161.97.174.99:26739 - "GET /v2/ HTTP/1.1" 404 Not Found
+INFO:     154.26.136.165:19800 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     154.26.136.165:19800 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     154.26.136.165:19800 - "GET /v2/ HTTP/1.1" 404 Not Found
+INFO:     95.142.120.17:1559 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:37980 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:39436 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.240.236.109:58898 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     205.210.31.41:60690 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:45102 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:47384 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     112.230.172.79:42495 - "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:38500 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:39246 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     192.241.213.57:38922 - "GET /manager/text/list HTTP/1.1" 404 Not Found
+INFO:     223.247.179.42:55702 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     192.241.209.135:56394 - "GET /manager/html HTTP/1.1" 404 Not Found
+INFO:     35.195.93.98:55922 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     45.132.194.56:41696 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     192.3.101.140:62277 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     192.3.101.140:62317 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     51.103.92.238:50659 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     51.103.92.238:51005 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:36464 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:37174 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     143.110.217.62:52834 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:55674 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:58408 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     179.43.177.242:46336 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:45256 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:48032 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     198.235.24.19:50961 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     95.214.235.205:52456 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:55148 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     128.14.141.34:45388 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     103.203.57.1:49920 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:39930 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:40656 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:54806 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:55566 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:55632 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:58554 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     46.183.223.5:58664 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     46.183.223.5:58717 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     139.59.65.156:50550 - "GET /wp-login.php HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:44860 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:47432 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     46.183.223.5:50436 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     46.183.223.5:50462 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.180.143.71:50696 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     35.203.245.122:26849 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.203.245.122:18315 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.70:33628 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.65:33108 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     54.176.172.101:34826 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     107.178.237.23:32420 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     107.178.237.23:41451 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     107.178.238.58:22782 - "HEAD /8506-eca23549ddd22c722222.js HTTP/1.1" 404 Not Found
+INFO:     107.178.238.58:43562 - "GET /8506-eca23549ddd22c722222.js HTTP/1.1" 404 Not Found
+INFO:     107.178.238.58:46077 - "HEAD /app-768af70e0d4410a6e88c.js HTTP/1.1" 404 Not Found
+INFO:     107.178.238.58:21850 - "GET /app-768af70e0d4410a6e88c.js HTTP/1.1" 404 Not Found
+INFO:     104.244.73.136:43646 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     149.129.50.37:35333 - "GET http%3A//www.1ucn.com/proxychecker/index.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.8:58406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     3.89.187.199:59778 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     164.92.179.10:49738 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     164.92.179.10:50646 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     164.92.179.10:50648 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50650 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50644 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50652 - "GET /s/8353e26353e29333e233/_/%3B/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50642 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50640 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50632 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50638 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50630 - "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 307 Temporary Redirect
+INFO:     164.92.179.10:50636 - "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:50634 - "GET /debug/default/view?panel=config HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:51168 - "GET /login.action HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:51156 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:51162 - "GET /about HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:51166 - "GET /v2/_catalog HTTP/1.1" 404 Not Found
+INFO:     164.92.179.10:51164 - "GET /api/search?folderIds=0 HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:36504 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:37270 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     134.209.148.104:42956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     1.14.7.100:58736 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:52186 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:52974 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     65.154.226.167:54062 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     205.169.39.63:34851 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     54.212.116.216:37486 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     204.101.161.19:52411 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:47792 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     180.149.26.249:36147 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:33246 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.71.235.30:55942 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     196.247.212.79:49470 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     176.100.243.133:27199 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     94.102.61.10:51712 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:52430 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:53020 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     94.102.61.10:36810 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:37080 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:37302 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     94.102.61.10:48312 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:34178 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:35500 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     205.210.31.132:56196 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     185.224.128.219:49792 - "GET /admin/config.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:59018 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59746 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:55620 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:58814 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     109.237.97.180:33716 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     92.118.39.82:58972 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     157.245.203.107:43704 - "GET / HTTP/1.0" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:37514 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:38268 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     161.35.41.169:50236 - "GET /SamlResponseServlet HTTP/1.1" 404 Not Found
+INFO:     161.35.41.169:50244 - "GET /showLogin.cc HTTP/1.1" 404 Not Found
+INFO:     161.35.41.169:50236 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     161.35.41.169:50244 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     191.102.163.180:46148 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     64.43.108.249:34536 - "GET http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     54.196.251.37:59690 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     191.102.179.233:18006 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     54.226.208.236:36632 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:33960 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:36414 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     209.127.252.254:37920 - "HEAD http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     186.179.59.101:20300 - "HEAD http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     209.127.110.109:19692 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     186.179.59.81:25888 - "GET http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     44.210.93.178:41622 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     144.168.158.99:31410 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     44.211.248.96:55946 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     183.136.225.32:2926 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:35140 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:35914 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     46.183.223.5:57514 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     46.183.223.5:57527 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     183.136.225.32:44088 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:54648 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:59502 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:16907 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:15773 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:18471 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     23.251.102.74:43934 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     138.68.182.153:46612 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     45.95.55.147:56924 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:43088 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:43890 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:48708 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:51742 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     143.198.201.142:41972 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     35.88.57.43:32578 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     54.202.54.112:1819 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     54.202.54.112:52990 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:55270 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:56066 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.225.74.247:57692 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     114.107.225.150:33424 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     35.92.230.143:53834 - "OPTIONS / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:44216 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:46320 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     1.14.7.100:44512 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:58810 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59430 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     138.197.8.189:20000 - "GET / HTTP/1.0" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     35.245.188.175:32838 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:19062 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:57370 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:11207 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:14081 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:38121 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:41007 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:43851 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     138.197.8.189:59760 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     128.199.171.249:46736 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46744 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46758 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46768 - "GET /aws.yml HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46778 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46784 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46796 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46804 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     128.199.171.249:46812 - "GET /config/aws.yml HTTP/1.1" 404 Not Found
+INFO:     128.199.171.249:46814 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     128.199.171.249:46818 - "GET /config.js HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     157.245.71.207:38558 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:38296 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:40984 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:59810 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:60530 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     45.90.62.231:36039 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     89.104.111.157:41631 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     176.58.123.141:48874 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     123.60.146.214:54332 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:56936 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:33430 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.180.143.72:45856 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     64.62.197.210:4843 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     64.62.197.207:28361 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     34.64.82.72:37520 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.67:60748 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     34.64.82.72:37634 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.65:38046 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.189:51146 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:51880 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     34.64.82.64:37800 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.64:37802 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:58900 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:59642 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     89.187.162.185:41462 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     178.72.69.22:19688 - "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" 404 Not Found
+INFO:     134.122.184.20:55824 - "GET /vplayer/173061.html HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:48692 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:51718 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.4:57680 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     192.42.116.209:14446 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.189:39096 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:39776 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.142.120.43:1301 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     192.3.101.140:58882 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     192.3.101.140:58927 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.189:47616 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:48336 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     182.43.148.98:49006 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     140.246.164.95:57666 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     14.116.152.84:49180 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.76.96.55:54322 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.62:36868 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.62:47504 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.62:58028 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:34744 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:37432 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     87.236.176.42:39749 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.189:38946 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:39656 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     1.14.7.100:59218 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:41774 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:44288 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     185.180.143.136:44104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:56942 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:60610 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.189:33850 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:34640 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     173.67.37.174:41191 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     102.37.154.228:49391 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     157.245.110.196:50714 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:40065 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:31619 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.189:52898 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:53738 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     183.136.225.32:16731 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:20721 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:36082 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:40830 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.189:59250 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:59988 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     205.210.31.15:58572 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.45:49802 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.45:43486 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     94.102.61.10:41426 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:42832 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:44086 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.189:55578 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:56384 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     66.135.2.52:53916 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     159.65.111.248:48564 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     3.250.3.182:38644 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.246.189:54858 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:55628 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.254.196.115:59804 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:34336 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     68.183.63.33:50084 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     128.199.77.96:47908 - "GET / HTTP/1.0" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     54.185.170.203:35590 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     107.170.236.19:58896 - "GET /portal/redlion HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:47694 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:48430 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     198.199.94.65:39192 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     185.224.128.219:33104 - "GET /admin/config.php HTTP/1.1" 404 Not Found
+INFO:     222.188.188.38:35640 - "GET /boaform/admin/formLogin?username=user&psd=user HTTP/1.0" 404 Not Found
+INFO:     1.14.7.100:35410 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:51668 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:52452 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     103.149.192.64:40309 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.254.196.115:50676 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:52666 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     198.235.24.29:49436 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     111.7.100.25:44148 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     111.7.100.25:50324 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     94.102.61.10:45536 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.246.189:42474 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:43164 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     94.102.61.10:34732 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:60050 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:39132 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.189:44230 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:44944 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     165.22.40.131:44060 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.209.212.236:26992 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     103.80.134.119:55424 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     113.125.51.198:50188 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     147.78.47.249:56092 - "GET /_ignition/health-check/ HTTP/1.1" 404 Not Found
+INFO:     147.78.47.249:35958 - "GET /public/_ignition/health-check/ HTTP/1.1" 404 Not Found
+INFO:     147.78.47.249:43604 - "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 404 Not Found
+INFO:     89.104.111.23:44725 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     176.53.220.203:38961 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.246.189:49798 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.246.189:50380 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     109.237.98.226:35562 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     192.241.193.15:36714 - "GET / HTTP/1.1" 307 Temporary Redirect
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.771714985370636
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     221.146.55.203:59058 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     95.214.235.205:48360 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:53148 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:60424 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:60982 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     195.123.240.173:43284 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     13.127.26.252:61752 - "POST /ALFA_DATA/alfacgiapi/perl.alfa HTTP/1.1" 404 Not Found
+INFO:     13.127.26.252:61749 - "POST /wp-plain.php HTTP/1.1" 404 Not Found
+INFO:     13.127.26.252:61753 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     13.127.26.252:61752 - "POST /alfacgiapi/perl.alfa HTTP/1.1" 404 Not Found
+INFO:     13.127.26.252:61749 - "GET /dcaiaocj.php?Fox=d3wL7 HTTP/1.1" 404 Not Found
+INFO:     206.81.18.183:52976 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.207.116.152:51291 - "GET //wp-content/themes/seotheme/db.php?u HTTP/1.1" 404 Not Found
+INFO:     43.207.116.152:51291 - "GET //wp-content/plugins/seoplugins/mar.php HTTP/1.1" 404 Not Found
+INFO:     43.207.116.152:51291 - "GET //wp-content/themes/seotheme/mar.php HTTP/1.1" 404 Not Found
+INFO:     164.92.180.249:33412 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     34.64.82.67:45772 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.64:57748 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.68:32978 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.71:43848 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:52494 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:53130 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     34.64.82.65:37460 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.71:57582 - "GET /privacy HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     194.87.151.116:58814 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     4.193.108.83:62613 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     4.193.108.83:60045 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     159.65.136.141:54232 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     1.14.7.100:39424 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     138.197.168.220:41966 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:47588 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:48274 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:49782 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:52410 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     123.60.146.214:63371 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     113.142.141.105:33332 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:36766 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:37502 - "POST / HTTP/1.1" 405 Method Not Allowed
