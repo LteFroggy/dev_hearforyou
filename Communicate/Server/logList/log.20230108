@@ -1,0 +1,115 @@
+INFO:     Started server process [12429]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     128.134.0.90:56391 - "GET / HTTP/1.1" 200 OK
+INFO:     128.134.0.90:56391 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8564342260360718
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:32792 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9743375778198242
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:32796 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.999828577041626
+판단 결과는 차량 급정거 소리
+차량 급정거가 최대라 제거
+제거한 후의 최댓값은 : 0.00015115586575120687
+제거한 후의 결과는 총소리
+정상적으로 반환됨
+INFO:     128.134.0.90:32798 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8037607073783875
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:32802 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9728465676307678
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:32804 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     128.134.0.90:32806 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9469084739685059
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:33120 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     128.134.0.90:33132 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5388240218162537
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:33134 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8215383291244507
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:33136 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8862543106079102
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:33174 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8755300045013428
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     128.134.0.90:33190 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     39.7.230.49:55695 - "GET / HTTP/1.1" 200 OK
+INFO:     39.7.230.49:55695 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9136478304862976
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:60604 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     162.142.125.10:43622 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.10:34800 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.10:34522 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.10:50768 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     222.111.216.169:49390 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:49390 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.717897355556488
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:60612 - "POST /uploadFile HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.8:42734 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.8:55906 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.8:37476 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.8:48674 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.

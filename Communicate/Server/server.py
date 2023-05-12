@@ -16,9 +16,8 @@ app = FastAPI()
 templates = Jinja2Templates(directory = "htmlFile")
 
 @app.get("/")
-async def mainPage() :
+async def redirectToMainPage() :
     return RedirectResponse("https://wkkyu088.notion.site/67d74dc6c94644689fa74df159775d09")
-
 
 @app.post("/uploadLog")
 async def logUpload(logList : list[str] = Form(), userName : str = Form()) :
@@ -78,7 +77,7 @@ async def fileUpload(file : UploadFile = Form(), userName : str = Form()) :
          
         # 저장할 파일은 유저별 폴더 만들고 분류결과_시간으로 저장
         now = datetime.now()
-        timestamp = now.strftime('%Y-%m-%d %H시%M분%S초')
+        timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
         fileName =  "_" + timestamp + ".wav"
         savePath = os.path.join(dirName, fileName)
 
@@ -115,4 +114,4 @@ async def fileUpload(file : UploadFile = Form(), userName : str = Form()) :
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host = "0.0.0.1", port = 80)
+    uvicorn.run(app, host = "0.0.0.0", port = 80)

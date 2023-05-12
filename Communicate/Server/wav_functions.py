@@ -42,8 +42,12 @@ def loadModel(modelPath) :
 def getPrediction(model, values) :
     pred = model(values)
     softmax = F.softmax(pred, dim = 0)
-
-    if softmax.max() > 0.95 :
+    print(f"Softmax의 최댓값은 {softmax.max()}")
+    print(f"판단 결과는 {set.label[softmax.argmax().item()]}")
+    if softmax.argmax() >= 0.7 :
+        if softmax.argmax().item() >= 5 and softmax.argmax().item() <= 7 :
+            return "unknown"
         return set.label[softmax.argmax().item()]
     else :
         return "unknown"
+

@@ -1,0 +1,1041 @@
+INFO:     Started server process [15110]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     222.111.216.169:51637 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:51637 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     222.111.216.169:51637 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:51637 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     175.196.97.39:58364 - "GET / HTTP/1.1" 200 OK
+INFO:     175.196.97.39:58364 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     220.64.102.252:55422 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:51784 - "GET / HTTP/1.1" 200 OK
+INFO:     220.86.11.124:11907 - "GET / HTTP/1.1" 200 OK
+INFO:     220.86.11.124:11907 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     220.64.102.3:45459 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     220.86.11.124:11908 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     175.196.97.39:58365 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:51793 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:51793 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:51793 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     175.196.97.39:58374 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52636 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52636 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52636 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52710 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52710 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52710 - "GET /privacy HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 236, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/dev_hearforyou/Communicate/Server/server.py", line 66, in returnPrivacy
+    return templates.TemplateResponse("privacy.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 97, in TemplateResponse
+    template = self.get_template(name)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 84, in get_template
+    return self.env.get_template(name)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: privacy.html
+INFO:     222.111.216.169:52712 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52712 - "GET /privacy HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 236, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/dev_hearforyou/Communicate/Server/server.py", line 66, in returnPrivacy
+    return templates.TemplateResponse("privacy.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 97, in TemplateResponse
+    template = self.get_template(name)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 84, in get_template
+    return self.env.get_template(name)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: privacy.html
+INFO:     121.53.181.4:35934 - "GET /privacy HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 236, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/dev_hearforyou/Communicate/Server/server.py", line 66, in returnPrivacy
+    return templates.TemplateResponse("privacy.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 97, in TemplateResponse
+    template = self.get_template(name)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 84, in get_template
+    return self.env.get_template(name)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: privacy.html
+INFO:     210.220.70.253:37904 - "GET /privacy HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 236, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/dev_hearforyou/Communicate/Server/server.py", line 66, in returnPrivacy
+    return templates.TemplateResponse("privacy.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 97, in TemplateResponse
+    template = self.get_template(name)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/templating.py", line 84, in get_template
+    return self.env.get_template(name)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/lib/python3/dist-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: privacy.html
+INFO:     222.111.216.169:52799 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52799 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52799 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52799 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52799 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52799 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52799 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52948 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52948 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     222.111.216.169:52948 - "GET / HTTP/1.1" 200 OK
+INFO:     222.111.216.169:52948 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     220.64.105.254:39207 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     220.64.106.255:46494 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     175.196.97.39:61970 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     175.196.97.39:61970 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     220.86.11.124:5377 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     220.86.11.124:5377 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     222.111.216.169:52970 - "GET /privacy HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.235.205:53440 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:60958 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     34.77.127.183:36282 - "GET / HTTP/1.1" 200 OK
+INFO:     141.255.167.130:43384 - "GET / HTTP/1.1" 200 OK
+INFO:     121.53.80.249:53254 - "GET /privacy HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     193.118.53.210:60010 - "GET / HTTP/1.1" 200 OK
+INFO:     1.14.7.100:41220 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     95.67.33.25:39105 - "GET / HTTP/1.0" 200 OK
+INFO:     95.67.33.25:39164 - "GET / HTTP/1.0" 200 OK
+INFO:     95.67.33.25:39241 - "GET / HTTP/1.0" 200 OK
+INFO:     95.67.33.25:39425 - "GET / HTTP/1.0" 200 OK
+INFO:     210.220.73.254:53774 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     192.241.227.35:46284 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     198.235.24.2:61752 - "GET / HTTP/1.1" 200 OK
+INFO:     162.243.138.17:35590 - "GET /hudson HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:38304 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:40086 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     135.125.246.110:38342 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:39130 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.172.28.246:59236 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.235.205:53614 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:56564 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:52098 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:52814 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     210.97.77.52:10564 - "GET / HTTP/1.1" 200 OK
+INFO:     210.97.77.52:10563 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     210.97.77.52:10563 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.235.205:34326 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:37116 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.114.185.54:38442 - "GET / HTTP/1.1" 200 OK
+INFO:     167.114.185.54:39246 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.114.185.54:39670 - "GET / HTTP/1.1" 200 OK
+INFO:     167.114.185.54:40204 - "GET / HTTP/1.1" 200 OK
+INFO:     178.128.83.89:36626 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.254.196.115:57758 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:59878 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:37606 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:38384 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     116.203.211.224:53888 - "GET / HTTP/1.1" 200 OK
+INFO:     148.113.143.236:52308 - "GET / HTTP/1.1" 200 OK
+INFO:     103.149.192.91:56079 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     35.80.21.71:51110 - "GET / HTTP/1.1" 200 OK
+INFO:     176.53.219.220:44973 - "GET / HTTP/1.1" 200 OK
+INFO:     89.104.101.146:45723 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.125.246.110:33942 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:34584 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     51.195.90.229:53230 - "GET / HTTP/1.1" 200 OK
+INFO:     51.195.90.229:54624 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     51.195.90.229:54850 - "GET / HTTP/1.1" 200 OK
+INFO:     51.195.90.229:55882 - "GET / HTTP/1.1" 200 OK
+INFO:     5.62.63.93:1484 - "GET / HTTP/1.1" 200 OK
+INFO:     195.154.77.190:36860 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     1.14.7.100:49736 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     35.92.60.178:41434 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     35.92.60.178:41434 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.92.60.178:41436 - "GET / HTTP/1.1" 200 OK
+INFO:     35.92.60.178:41452 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     35.92.60.178:41452 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.92.60.178:41454 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     183.136.225.32:34194 - "GET / HTTP/1.1" 200 OK
+INFO:     183.136.225.32:4439 - "GET / HTTP/1.1" 200 OK
+INFO:     183.136.225.32:7101 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     183.136.225.32:11011 - "GET /robots.txt HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9999696016311646
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:63602 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     45.9.110.186:43375 - "GET / HTTP/1.1" 200 OK
+INFO:     45.9.110.186:44864 - "GET / HTTP/1.1" 200 OK
+INFO:     45.9.110.186:44996 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.9.110.186:45148 - "GET /robots.txt HTTP/1.1" 404 Not Found
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:63692 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:63697 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:63702 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.981870174407959
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:63707 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8815551996231079
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:63945 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9950355291366577
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:64177 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     51.91.125.152:33794 - "GET / HTTP/1.1" 200 OK
+INFO:     51.91.125.152:59478 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9920074939727783
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45350 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:45352 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.989104151725769
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45476 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9988927245140076
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:52819 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     51.91.125.152:43216 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9395250082015991
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45478 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9635896682739258
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45480 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     51.91.125.152:49018 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9951152801513672
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:45482 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:45484 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.954132616519928
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:43044 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.997186005115509
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:43070 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:43072 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9400233626365662
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:43076 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5594494938850403
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:64753 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5527155995368958
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46052 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46054 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46056 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46058 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46060 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9993313550949097
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46062 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46064 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9997684359550476
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46066 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46068 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7862794399261475
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46070 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46072 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5840818285942078
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46074 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5595821142196655
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46076 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 1.0
+판단 결과는 차량 급정거 소리
+차량 급정거가 최대라 제거
+제거한 후의 최댓값은 : 7.624244346970954e-09
+제거한 후의 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46084 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 1.0
+판단 결과는 차량 급정거 소리
+차량 급정거가 최대라 제거
+제거한 후의 최댓값은 : 7.624244346970954e-09
+제거한 후의 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46086 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     220.86.11.124:9525 - "GET / HTTP/1.1" 200 OK
+INFO:     220.86.11.124:9525 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:42876 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:45726 - "POST / HTTP/1.1" 405 Method Not Allowed
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:65238 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:65354 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7611992359161377
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:65364 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.938896656036377
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:65380 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     135.125.246.110:56234 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     135.125.246.110:56870 - "GET /.env HTTP/1.1" 404 Not Found
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:49167 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     128.1.248.42:38408 - "GET / HTTP/1.1" 200 OK
+INFO:     58.251.94.154:37628 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9413691163063049
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48234 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:48240 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     144.168.158.75:40436 - "HEAD http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     45.72.113.40:33398 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     130.255.166.82:25831 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     130.255.166.98:54225 - "GET /humans.txt HTTP/1.1" 404 Not Found
+INFO:     130.255.166.11:46671 - "GET /ads.txt HTTP/1.1" 404 Not Found
+INFO:     130.255.166.24:45477 - "GET / HTTP/1.1" 200 OK
+INFO:     170.247.223.143:41270 - "GET http%3A//www.hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     54.210.22.237:43342 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     95.164.156.44:23070 - "GET http%3A//hearforyou.site%3A80/ HTTP/1.1" 404 Not Found
+INFO:     34.227.176.130:39784 - "GET / HTTP/1.1" 200 OK
+INFO:     34.234.11.9:35414 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.72.113.40:13302 - "GET http%3A//hearforyou.site%3A80/favicon.png HTTP/1.1" 404 Not Found
+INFO:     54.174.5.18:49268 - "GET /favicon.png HTTP/1.1" 404 Not Found
+INFO:     34.234.11.9:35414 - "GET /favicon.png HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.999462902545929
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48252 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:49974 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     59.8.171.83:49978 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5900156497955322
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     59.8.171.83:50025 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9998319149017334
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48256 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9999196529388428
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48260 - "POST /uploadFile HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9514890313148499
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48264 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:48266 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9991788268089294
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48268 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:48270 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9958295226097107
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48272 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.993354082107544
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48274 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     95.211.146.74:39608 - "GET / HTTP/1.1" 200 OK
+INFO:     93.158.90.66:53101 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     93.158.90.73:38389 - "GET /humans.txt HTTP/1.1" 404 Not Found
+INFO:     93.158.90.68:60769 - "GET /ads.txt HTTP/1.1" 404 Not Found
+INFO:     93.158.90.74:26367 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.235.205:58350 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     95.214.235.205:60850 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     51.195.90.229:52190 - "GET / HTTP/1.1" 200 OK
+INFO:     51.195.90.229:53714 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:46928 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     51.195.90.229:56026 - "GET / HTTP/1.1" 200 OK
+INFO:     51.195.90.229:57216 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.7948349714279175
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:46930 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     205.210.31.12:50522 - "GET / HTTP/1.0" 200 OK
+INFO:     45.90.63.255:42887 - "GET / HTTP/1.1" 200 OK
+INFO:     89.104.101.214:37209 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     176.53.219.26:43029 - "GET / HTTP/1.1" 200 OK
+INFO:     135.125.217.54:39032 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:39494 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     71.6.232.24:38406 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.195.7:42117 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.195.7:57683 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.148.195.2:48755 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.195.15:45881 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:40312 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:41138 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     185.254.196.115:57806 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:59872 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     68.183.94.1:53056 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     118.193.72.185:50464 - "GET / HTTP/1.1" 200 OK
+INFO:     118.193.72.185:55478 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.193.72.185:57724 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.193.72.185:60434 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     89.104.100.28:32927 - "GET / HTTP/1.1" 200 OK
+INFO:     176.113.42.23:37513 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9994186162948608
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48402 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     38.242.153.201:47760 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9494868516921997
+판단 결과는 총소리
+정상적으로 반환됨
+INFO:     175.196.97.39:51058 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:51059 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     23.129.64.131:60542 - "GET / HTTP/1.1" 200 OK
+INFO:     185.254.196.115:52928 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:54960 - "POST / HTTP/1.1" 405 Method Not Allowed
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9428402185440063
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:50756 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:50757 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9428402185440063
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:50759 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9428402185440063
+판단 결과는 차량 급정거 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:50760 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:50761 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:50762 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:50763 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     113.142.131.55:50424 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8363832831382751
+판단 결과는 총소리
+정상적으로 반환됨
+INFO:     175.196.97.39:49299 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8363832831382751
+판단 결과는 총소리
+정상적으로 반환됨
+INFO:     175.196.97.39:49298 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:49300 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:49301 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8363832831382751
+판단 결과는 총소리
+정상적으로 반환됨
+INFO:     175.196.97.39:49303 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8363832831382751
+판단 결과는 총소리
+정상적으로 반환됨
+INFO:     175.196.97.39:49302 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:49305 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:49307 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8363832831382751
+판단 결과는 총소리
+정상적으로 반환됨
+INFO:     175.196.97.39:49308 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:49309 - "POST /uploadLog HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.59.107.61:41850 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9997188448905945
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:63964 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:63969 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:63970 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9997188448905945
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:63968 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:63971 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:63972 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:63973 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6994814276695251
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:48708 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:48710 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     176.53.220.81:36851 - "GET / HTTP/1.1" 200 OK
+INFO:     176.53.216.105:42009 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:59786 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:60532 - "POST / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     123.60.146.214:59109 - "GET / HTTP/1.1" 200 OK
+INFO:     109.239.58.107:58890 - "GET / HTTP/1.1" 200 OK
+INFO:     23.111.114.116:50154 - "GET / HTTP/1.1" 200 OK
+INFO:     23.111.114.116:50202 - "GET / HTTP/1.1" 200 OK
+INFO:     54.176.192.83:2623 - "GET /manager/html HTTP/1.1" 404 Not Found
+INFO:     167.248.133.44:34322 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.44:33534 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.44:40092 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.248.133.44:46582 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:37850 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     185.254.196.115:41860 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     13.58.100.181:37732 - "GET / HTTP/1.1" 200 OK
+INFO:     13.58.100.181:37782 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:34424 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:35156 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     44.212.58.122:37936 - "GET / HTTP/1.1" 200 OK
+INFO:     54.160.228.218:44346 - "GET / HTTP/1.1" 200 OK
+INFO:     3.90.72.181:23166 - "HEAD /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.204.18.92:41605 - "GET / HTTP/1.1" 200 OK
+INFO:     123.60.146.214:56940 - "GET / HTTP/1.1" 200 OK
+INFO:     135.125.217.54:37376 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:38098 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     94.102.61.10:49804 - "GET / HTTP/1.1" 200 OK
+INFO:     220.64.104.4:43436 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     210.220.73.4:52184 - "GET / HTTP/1.1" 200 OK
+INFO:     220.64.104.248:52464 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     210.220.73.4:41101 - "GET /privacy HTTP/1.1" 200 OK
+INFO:     123.60.146.214:55308 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9999924898147583
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:53046 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     1.14.7.100:58588 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     184.105.139.70:22758 - "GET / HTTP/1.1" 200 OK
+INFO:     135.125.217.54:35804 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     135.125.217.54:36592 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     184.105.139.70:22750 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8740846514701843
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:48576 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     175.196.97.39:48578 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     69.164.217.245:54693 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9991642236709595
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:56638 - "POST /uploadFile HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     76.164.198.173:58980 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5601255893707275
+판단 결과는 개 짖는 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:50350 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50354 - "POST /uploadLog HTTP/1.1" 200 OK
+INFO:     123.60.146.214:52121 - "GET / HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6984190344810486
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:50446 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50448 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8751989006996155
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:50972 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50974 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9665461778640747
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:50976 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50978 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5628715753555298
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:50980 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50982 - "POST /uploadLog HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50984 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.5654953122138977
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:50990 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:50992 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.40040457248687744
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:51038 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:51040 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8073222637176514
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54024 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:54026 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8054484724998474
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54030 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:54032 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.506657063961029
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54038 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.8741491436958313
+판단 결과는 화재 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54040 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.6341997385025024
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54042 - "POST /uploadFile HTTP/1.1" 200 OK
+로그 정상적으로 저장
+unhashable type: 'list'
+INFO:     220.86.11.124:54044 - "POST /uploadLog HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9992280006408691
+판단 결과는 비명 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54046 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9999983310699463
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     220.86.11.124:54088 - "POST /uploadFile HTTP/1.1" 200 OK
+음원 불러오기 완료
+mfcc 구하기 완료
+모델 불러오기 완료
+Softmax의 최댓값은 0.9218693375587463
+판단 결과는 차량 사이렌 소리
+정상적으로 반환됨
+INFO:     175.196.97.39:63945 - "POST /uploadFile HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15110]
